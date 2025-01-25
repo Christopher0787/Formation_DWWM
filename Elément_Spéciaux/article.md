@@ -17,7 +17,7 @@
 
 ## **Exemple interactif**
 
-## **Exemple interactif en HTML**
+### **Exemple interactif en HTML**
 
     HTML Demo: <article>
 
@@ -39,7 +39,7 @@
 
 
 
-## **Exemple interactif en CSS**
+### **Exemple interactif en CSS**
 
     .forecast {
         margin: 0;

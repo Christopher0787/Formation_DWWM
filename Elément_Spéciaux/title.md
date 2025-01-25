@@ -68,3 +68,17 @@
         2 erreurs sur votre commande - Restaurant chinois Maison bleue - Commande en
         ligne
     </title
+
+---
+
+
+
+## **Résumé Technique**
+
+**Contenu autorisé : Du texte qui n'est pas blans entre élément (Inter-element whitespace).**
+
+**Omission de balises : Les deux balises sont nécessaire. Si </title est absent, le navigateur peut ignorer le reste de la page.**
+
+**Parents autorisés : Un élément <head qui ne contient pas d'autre élément <title.**
+
+---

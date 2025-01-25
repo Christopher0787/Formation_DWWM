@@ -31,3 +31,10 @@
     }
 
 ---
+
+
+    Étant des éléments de bloc, les paragraphes se fermeront automatiquement si un autre 
+    élément de bloc est analysé avant la balise de fermeture </p> 
+    (voir Omission de balises dans le tableau qui suit)
+
+    ---

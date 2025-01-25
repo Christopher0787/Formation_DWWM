@@ -63,4 +63,51 @@
     Le standard HTML n'indique pas les formats d'image qui doivent être pris en charge, 
     les agents utilisateurs peuvent prendre en charge différents formats.
 
+
+    Les formats d'image qu'on rencontre le plus fréquemment sur le Web sont :
+
+        APNG 
+        (Animated Portable Network Graphics) pour les séquences animées avec 
+        une compression sans perte (le format GIF est moins performant)
+
+        AVIF 
+        (AV1 Image File Format) pour les images et les images animées avec de hautes performances
+
+        GIF 
+        (Graphics Interchange Format) pour les images et animations simples
+
+        JPEG 
+        (Joint Photographic Expert Group image) pour une compression avec pertes 
+        d'images statiques, il s'agit du format le plus utilisé
+
+        PNG 
+        (Portable Network Graphics) pour une compression sans perte d'images statiques, 
+        de meilleure qualité que le JPEG
+
+        SVG 
+        (Scalable Vector Graphics) pour un format d'image vectorielle 
+        (qui permet de dessiner une image précisément à différentes échelles)
+
+        WebP 
+        (Web Picture format) pour les images statiques et animées
+
+
+    Les formats comme WebP et AVIF sont recommandés, car avec de meilleures performances 
+    que PNG, JPEG, GIF tant pour les images animées que statiques. 
+    WebP dispose d'une large prise en charge tandis qu'AVIF n'est pas pris en charge par Safari.
+
+    SVG reste le format recommandé pour les images qui doivent être dessinées avec précision quelle que soit la taille.
+
+---
+
+
+
+
+
+
+
+
+
+
+
 ---

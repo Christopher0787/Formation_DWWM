@@ -10,8 +10,33 @@
     (grâce aux attributs class ou id et aux règles CSS) ou parce qu'ils partagent certaines valeurs d'attribut comme lang.
 
     Il doit uniquement être utilisé lorsqu'aucun autre élément sémantique n'est approprié.
-     
+
     <span> est très proche de l'élément <div>, mais l'élément <div> est un élément de bloc, 
     alors que <span> est un élément en ligne.
+
+---
+
+
+## **Exemple interactif**
+
+    HTML Demo: <span>
+
+## **Exemple interactif en HTML**
+
+    <p>
+        Add the <span class="ingredient">basil</span>, <span class="ingredient">pine nuts</span> and
+        <span class="ingredient">garlic</span> to a blender and blend into a paste.
+    </p>
+
+    <p>
+        Gradually add the <span class="ingredient">olive oil</span> while running the blender slowly.
+    </p>
+
+
+## **Exemple interactif en CSS**
+
+    span.ingredient {
+        color: #f00;
+    }
 
 ---

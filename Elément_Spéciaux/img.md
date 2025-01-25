@@ -445,3 +445,79 @@
     width ou height défini.
 
 ---
+
+
+## **Exemples**
+
+## Fournir un texte alternatif
+
+    Dans l'exemple qui suit, l'image est accompagnée d'un texte alternatif qui sert l'accessibilité.
+
+---
+    HTML
+
+    <img src="favicon144.png" alt="Logo de MDN" />
+---
+
+## Créer un lien avec une image
+
+    Cet exemple intègre l'image précédente et la transforme en lien. Pour cela, 
+    l'élément <img> est placé au sein d'un élément <a>. Ici, le texte alternatif 
+    devrait décrire la ressource vers laquelle pointe le lien.
+---
+    HTML
+
+    <a href="https://developer.mozilla.org">
+        <img src="favicon144.png" alt="Visiter le site MDN" />
+    </a>
+---
+
+## Utiliser l'attribut srcset
+
+    Dans cet exemple, on utilise l'attribut srcset avec une référence vers une 
+    version du logo en haute résolution. Pour les appareils avec une haute résolution, 
+    celle-ci sera chargée à la place à la place de l'image indiquée par src. 
+    Pour les agents utilisateurs qui prennent en charge l'attribut srcset, l'image référencée 
+    par l'attribut src sera considérée comme une candidate avec le descripteur 1x.
+---
+    HTML
+
+    <img src="favicon72.png" alt="Logo MDN" srcset="favicon144.png 2x" />
+---
+
+## Utiliser les attributs srcset et sizes
+
+    L'attribut src est ignoré par les agents utilisateurs qui le prennent en charge lorsque 
+    les descripteurs w sont présents. Lorsque la condition (max-width: 600px) est respectée, l'image large de 200 pixels sera chargée (car c'est celle qui est la plus proche de 200px). Dans les autres cas, c'est l'autre image qui est chargée.
+---
+    HTML
+
+    <img
+        src="clock-demo-200px.png"
+        alt="Clock"
+        srcset="clock-demo-200px.png 200w, clock-demo-400px.png 400w"
+        sizes="(max-width: 600px) 200px, 50vw" />
+---
+
+## **Sécurité et vie privée**
+
+    Bien que les éléments <img> puissent être utilisés innocemment, 
+    ils peuvent également avoir des effets indésirables en termes de sécurité et de vie privée. 
+    Voir cet article quant à l'en-tête Referer pour plus de détails.
+
+
+---
+
+
+
+## **Accessibilité**
+
+## Écrire des descriptions alternatives significatives 
+
+    La valeur d'un attribut alt devrait toujours décrire le contenu de l'image de façon claire
+    et concise. 
+    Elle ne doit pas décrire la présence de l'image ou le nom du fichier de l'image. 
+    Si l'attribut alt est omis volontairement, car l'image n'a pas d'équivalent textuel, utilisez d'autres méthodes afin d'indiquer le message véhiculé par l'image.
+
+---
+## Mauvaise pratique

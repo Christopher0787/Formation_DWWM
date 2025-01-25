@@ -73,8 +73,19 @@
 
 ---
 
+
+
 ## **Attributs**
 
 **Comme tous les éléments HTML, cet élément accepte les attributs universels.**
+
+---
+
+
+
+## **Notes d'utilisation**
+
+    Les informations sur l'autrice ou l'auteur doivent être placées dans un élément <address> et incluses dans l'élément <footer>.
+    L'élément <footer> n'a pas de contenu sectionnant et ne peut donc pas introduire une nouvelle section dans le plan.
 
 ---

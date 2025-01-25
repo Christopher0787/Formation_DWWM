@@ -399,18 +399,23 @@
 ## **Attributs dépréciés**
 
     top
+    
         Équivalent à vertical-align: top ou vertical-align: text-top
 ---
     middle
+
         Équivalent à vertical-align: -moz-middle-with-baseline
 ---
     bottom
+
         La valeur par défaut, équivalent à vertical-align: unset ou vertical-align: initial
 ---
     left
+
         Équivalent à float: left
 ---
     right
+
         Équivalent à float: right
 
 ---

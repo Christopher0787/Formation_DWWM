@@ -6,3 +6,7 @@
     par exemple un groupe de contenu thématique. Une section commence généralement avec un titre.
 
 ---
+
+
+
+## **Exemple interactif**

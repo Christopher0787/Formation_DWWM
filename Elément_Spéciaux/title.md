@@ -14,7 +14,8 @@
 
 
 ## **Attributs**
-**Cet élément inclut uniquement les attributs universels.**
+
+    Cet élément inclut uniquement les attributs universels.
 
 ---
 
@@ -25,11 +26,12 @@
 
 ## Référencement (SEO)
 
-**Le titre d'une page fait partie des éléments principaux qui sont scannés lors de l'indexation d'une page. C'est aussi le texte qui est affiché parmi les résultats du moteur de recherche, de façon proéminente et donc visible par les utilisateurs qui trouvent votre site grâce à un moteur de recherche.**
+    Le titre d'une page fait partie des éléments principaux qui sont scannés lors de l'indexation d'une page. 
+    C'est aussi le texte qui est affiché parmi les résultats du moteur de recherche, de façon proéminente et donc visible par les utilisateurs qui trouvent votre site grâce à un moteur de recherche.
 
-**Aussi, mieux vaudra avoir des titres descriptifs plutôt que des titres trop courts ou vagues.**
+    Aussi, mieux vaudra avoir des titres descriptifs plutôt que des titres trop courts ou vagues.
 
-**Quelques observations :**
+### Quelques observations :
 
     * On pourra éviter les titres sur un ou deux mots.
 
@@ -56,17 +58,18 @@
 
 ## **Accessibilité**
 
-**Il est important de fournir une valeur pour l'attribut title qui décrit le but de la page de façon claire et concise.**
+    Il est important de fournir une valeur pour l'attribut title qui décrit le but de la page de façon claire et concise.
 
-**Les personnes utilisant des outils d'assistance peuvent utiliser le titre de la page afin de déterminer rapidement ce qu'elle contient.** 
+    Les personnes utilisant des outils d'assistance peuvent utiliser le titre de la page afin de déterminer rapidement ce qu'elle contient.
 
-**Ainsi, il peut ne pas être nécessaire de naviguer « dans » la page, ce qui peut prendre du temps et être source de confusion si, ce faisant, on doit déterminer le but de la page.**
+    Ainsi, il peut ne pas être nécessaire de naviguer « dans » la page, ce qui peut prendre du temps et être source de confusion si, ce faisant, on doit déterminer le but de la page.
+
 
 ### **Exemple**
 
-**<title Menu - Restaurant chinois Maison bleue - Commande en ligne</title**
+    <title> Menu - Restaurant chinois Maison bleue - Commande en ligne</title>
 
-**Mettre à jour la valeur de title afin de refléter un changement d'état important (un problème de validation d'un formulaire par exemple) peut également s'avérer utile :**
+    Mettre à jour la valeur de title afin de refléter un changement d'état important (un problème de validation d'un formulaire par exemple) peut également s'avérer utile :
 
     <title
         2 erreurs sur votre commande - Restaurant chinois Maison bleue - Commande en

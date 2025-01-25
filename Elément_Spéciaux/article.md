@@ -127,9 +127,48 @@
 
 
 ## **Exemples**
+    <article class="film_review">
+        <header>
+            <h2>Jurassic Park</h2>
+        </header>
+        <section class="main_review">
+            <p>Les dinosaures étaient super !</p>
+        </section>
+        <section class="user_reviews">
+                <article class="user_review">
+                    <p>Beaucoup trop effrayant pour moi</p>
+                    <footer>
+                        <p>
+                            Posté le
+                            <time datetime="2015-05-16 19:00">16 mai</time>
+                            par Lisa.
+                        </p>
+                    </footer>
+                </article>
+            <article class="user_review">
+                <p>Je suis d'accord, les dinosaures sont mes préférés</p>
+                <footer>
+                    <p>
+                        Posté le
+                        <time datetime="2015-05-17 19:00">17 mai</time>
+                        par Gilles Stella.
+                    </p>
+                </footer>
+            </article>
+        </section>
+            <footer>
+                <p>
+                    Posté le
+                    <time datetime="2015-05-15 19:00">15 mai</time>
+                    par Staff.
+                </p>
+            </footer>
+    </article>
 
+### Résultat
 
+**must be provided**
 
-
+---
 
 

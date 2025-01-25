@@ -87,3 +87,6 @@
     }
 
 ---
+
+
+## **Compatibilité des navigateurs**

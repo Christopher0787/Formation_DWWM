@@ -47,3 +47,6 @@
     pourrait être englobée dans un élément <section>.
 
 ---
+
+
+## **Compatibilité des navigateurs**

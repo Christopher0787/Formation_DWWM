@@ -79,7 +79,6 @@
     S'il est nécessaire d'avoir un espace supplémentaire, on pourra utiliser des propriétés 
     CSS comme margin pour obtenir l'effet désiré.
 
----
 
     CSS
 

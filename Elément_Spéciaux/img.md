@@ -56,3 +56,11 @@
         et le tutoriel sur les images adaptatives).
 
 ---
+
+
+## **Formats d'image pris en charge**
+
+    Le standard HTML n'indique pas les formats d'image qui doivent être pris en charge, 
+    les agents utilisateurs peuvent prendre en charge différents formats.
+
+---

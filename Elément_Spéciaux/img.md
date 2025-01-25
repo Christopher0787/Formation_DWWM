@@ -232,7 +232,8 @@
         le navigateur marque l'image comme potentiellement 
         corrompue et restreint l'accès à ses données.
 
-### Si la valeur de l'attribut est invalide, les navigateurs considèrent que la valeur anonymous a été utilisée. Voir les attributs de paramétrage du CORS pour plus d'informations.
+### Si la valeur de l'attribut est invalide, les navigateurs considèrent que la valeur anonymous a été utilisée. 
+### Voir les attributs de paramétrage du CORS pour plus d'informations.
 
     decoding
         Fournit au navigateur une indication pour décoder l'image. 

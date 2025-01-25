@@ -11,7 +11,6 @@
 ---
 
 ## **Exemple interactif**
-
     HTML Demo: <aside>
 
 ## **Exemple interactif en HTML**
@@ -31,7 +30,6 @@
     </p>
 ---
 ## **Exemple interactif en CSS**
-
     aside {
         width: 40%;
         padding-left: 0.5rem;

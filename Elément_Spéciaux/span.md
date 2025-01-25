@@ -46,3 +46,20 @@
 
     Cet élément inclut uniquement les attributs universels.
 
+
+---
+
+
+
+## HTML
+
+    <p><span>Un peu de texte</span></p>
+
+
+## CSS
+
+    p span {
+        background: green;
+    }
+
+---

@@ -224,9 +224,12 @@
 
     use-credentials
         La requête CORS est envoyée avec les informations d'authentification 
-        (cookies, certificat X.509 et/ou en-tête Authorization). 
-        Si le serveur ne permet pas le partage des informations d'authentification avec le site d'origine 
-        (avec Access-Control-Allow-Credentials: true comme en-tête de réponse), le navigateur marque l'image comme potentiellement 
+        (cookies, certificat X.509 et/ou en-tête Authorization).
+
+        Si le serveur ne permet pas le partage des informations d'authentification 
+        avec le site d'origine 
+        (avec Access-Control-Allow-Credentials: true comme en-tête de réponse), 
+        le navigateur marque l'image comme potentiellement 
         corrompue et restreint l'accès à ses données.
 
 ### Si la valeur de l'attribut est invalide, les navigateurs considèrent que la valeur anonymous a été utilisée. Voir les attributs de paramétrage du CORS pour plus d'informations.

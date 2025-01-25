@@ -524,3 +524,5 @@
     <img alt="image" src="pingouin.jpg" />
 ---
 ### Bonne pratique
+    <img alt="Un manchot Rockhopper sur une plage." src="pingouin.jpg" />
+---

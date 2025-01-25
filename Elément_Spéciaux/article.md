@@ -172,3 +172,5 @@
 ---
 
 
+
+## **Compatibilité des navigateurs**

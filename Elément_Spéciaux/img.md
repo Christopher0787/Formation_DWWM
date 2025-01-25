@@ -155,6 +155,7 @@
         Attribution-Reporting-Register-Source ou Attribution-Reporting-Register-Trigger 
         dans la réponse afin d'enregistrer une source d'attribution ou un déclencheur d'attribution.
 
-        L'en-tête de réponse renvoyé dépend de la valeur de l'en-tête Attribution-Reporting-Eligible ayant déclenché l'enregistrement.
+        L'en-tête de réponse renvoyé dépend de la valeur de l'en-tête Attribution-Reporting-Eligible 
+        ayant déclenché l'enregistrement.
 
         La source ou le déclencheur correspondant est éteint lorsque le navigateur reçoit la réponse contenant le fichier image.

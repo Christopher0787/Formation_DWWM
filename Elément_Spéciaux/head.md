@@ -44,17 +44,17 @@
 
 ### **Conten autorisé :**
 
-**Si le document est un document source (srcdoc) d'une <iframe ou si l'information pour le titre est disponible via un protocole de plus haut niveau zéro ou plusieurs éléments de méta-données. Sinon un ou plusieurs éléments de méta-données dont un (et un seul) est un élément <title.**
+    - **Si le document est un document source (srcdoc) d'une <iframe ou si l'information pour le titre est disponible via un protocole de plus haut niveau zéro ou plusieurs éléments de méta-données. Sinon un ou plusieurs éléments de méta-données dont un (et un seul) est un élément <title.**
 
 
 ### **Omission de balises :** 
 
-**La balise de début peut être absente si le premier contenu est un élément. La balise de fermeture peut être absente si le premier objet suivant l'élément <head n'est pas un caractère blanc ou un commentaire.**
+    - **La balise de début peut être absente si le premier contenu est un élément. La balise de fermeture peut être absente si le premier objet suivant l'élément <head n'est pas un caractère blanc ou un commentaire.**
 
 
 ### **Parents autorisés :** 
 
-**Cet élément doit être le premier enfant de l'élément <html.**
+    - **Cet élément doit être le premier enfant de l'élément <html.**
 
 ---
 

@@ -150,3 +150,14 @@
 **must be provided**
 
 ---
+
+
+
+## **Accessibilité**
+
+    L'élément <header> définit un point de repère banner lorsque son contexte est un élément <body>. 
+    Lorsqu'un élément HTML <header> descend de certains 
+    éléments (tels que <article>, <aside>, <main>, <nav> ou <section>), 
+    il n'est pas considéré comme un repère banner.
+
+---

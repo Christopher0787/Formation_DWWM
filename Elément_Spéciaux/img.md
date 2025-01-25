@@ -323,7 +323,8 @@
         origines ne contiendront pas de référent.
 
     strict-origin
-        N'envoie l'origine du document comme référent que lorsque le niveau de sécurité du protocole reste le même (HTTPS→HTTPS) et pas lorsque la destination est moins sécurisée (HTTPS→HTTP).
+        N'envoie l'origine du document comme référent que lorsque le niveau de sécurité du protocole reste le même (HTTPS→HTTPS) 
+        et pas lorsque la destination est moins sécurisée (HTTPS→HTTP).
 
     strict-origin-when-cross-origin (la valeur par défaut)
         Envoie l'URL complète lors d'une requête vers la même origine, n'envoie que l'origine 
@@ -343,18 +344,22 @@
 
         Une valeur de taille de source.
 
-        La condition de média décrit les propriétés de la zone d'affichage et pas de l'image. Ainsi, (max-height: 500px) 1000px proposera d'utiliser une source de largeur 1000px, 
+        La condition de média décrit les propriétés de la zone d'affichage et pas de l'image. Ainsi, (max-height: 500px) 1000px 
+        proposera d'utiliser une source de largeur 1000px, 
         si la zone d'affichage n'est pas plus haute que 500px.
 
         Les valeurs pour les tailles de source indiquent la taille d'affichage souhaitée 
         de l'image. Le navigateur utilise la taille de source courante correspondante pour sélectionner une des sources fournies par l'attribut srcset lorsque les sources y 
-        sont décrites avec un descripteur de largeur (w). La taille de source sélectionnée 
-        affecte la taille intrinsèque de l'image (c'est-à-dire la taille occupée à l'écran 
-        si aucun style CSS n'est appliqué). Si l'attribut srcset est absent ou qu'il ne contient pas de valeur avec un descripteur de largeur, l'attribut sizes aura aucun effet.
+        sont décrites avec un descripteur de largeur (w). 
+        La taille de source sélectionnée affecte la taille intrinsèque de l'image 
+        (c'est-à-dire la taille occupée à l'écran si aucun style CSS n'est appliqué). 
+        Si l'attribut srcset est absent ou qu'il ne contient pas de valeur avec un descripteur 
+        de largeur, l'attribut sizes aura aucun effet.
 
     src
         L'URL de l'image. Cet attribut est obligatoire. 
-        Pour les navigateurs qui prennent en charge srcset, l'image fourni par src est considérée comme une candidate avec un descripteur de densité de pixel à 1x, sauf si une image avec 
+        Pour les navigateurs qui prennent en charge srcset, l'image fourni par src est considérée comme une candidate 
+        avec un descripteur de densité de pixel à 1x, sauf si une image avec 
         un tel descripteur est déjà définie dans srcset, ou si srcset contient des descripteurs w.
 
     srcset

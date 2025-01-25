@@ -98,3 +98,9 @@
     application, document, feed, main, none, presentation, region.
 
 ---
+
+
+
+## **Attributs**
+
+**Cet élément n'a pas d'autres attributs que les attributs universels, communs à tous les éléments.**

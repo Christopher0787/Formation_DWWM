@@ -80,3 +80,11 @@
     CSS comme margin pour obtenir l'effet désiré.
 
 ---
+
+    CSS
+
+    p {
+        margin-bottom: 2em; // on ajoute un espace après chaque paragraphe
+    }
+
+---

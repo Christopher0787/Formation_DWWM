@@ -71,3 +71,5 @@
         <p>Plus d'informations sur le film…</p>
     </article>
 ---
+
+## **Compatibilité des navigateurs**

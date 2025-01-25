@@ -61,3 +61,22 @@
     </p>
 
 ---
+
+
+## **Accessibilité**
+
+    Répartir le contenu entre différents paragraphes permet d'améliorer l'accessibilité d'une page. 
+    Les lecteurs d'écran et autres outils d'assistance fournissent des raccourcis qui permettent 
+    aux utilisateurs d'accéder rapidement au paragraphe suivant ou précédent et ainsi de naviguer 
+    plus rapidement sur la page, comme le permettent les blancs pour la navigation visuelle 
+    des autres utilisateurs.
+
+    L'utilisation de paragraphes vides (des éléments HTML <p> sans contenu) est 
+    problématique pour les personnes qui naviguent sur une page à l'aide d'outils d'assistance. 
+    Les lecteurs d'écran, par exemple, pourraient annoncer l'élément mais pas le contenu associé 
+    ce qui peut être frustrant ou source de confusion.
+
+    S'il est nécessaire d'avoir un espace supplémentaire, on pourra utiliser des propriétés 
+    CSS comme margin pour obtenir l'effet désiré.
+
+---

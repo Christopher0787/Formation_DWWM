@@ -5,7 +5,7 @@
 
 
 
-**L'élément <title définit le titre du document (qui est affiché dans la barre de titre du navigateur ou dans l'onglet de la page). Cet élément ne peut contenir que du texte, les balises qu'il contiendrait seraient ignorées.**
+    L'élément <title> définit le titre du document (qui est affiché dans la barre de titre du navigateur ou dans l'onglet de la page). Cet élément ne peut contenir que du texte, les balises qu'il contiendrait seraient ignorées.
 
 ---
 
@@ -19,7 +19,7 @@
 
 ## **Notes d'utilisation**
 
-**L'élément <title est toujours utilisé au sein de l'élément <head de la page.**
+    L'élément <title> est toujours utilisé au sein de l'élément <head> de la page.
 
 ## Référencement (SEO)
 
@@ -46,7 +46,7 @@
 
 ## **Exemples**
 
-**<title Et voici le titre de ma page !</title**
+    <title> Et voici le titre de ma page !</title>
 
 ---
 
@@ -77,11 +77,11 @@
 
 ## **Résumé Technique**
 
-**Contenu autorisé : Du texte qui n'est pas blans entre élément (Inter-element whitespace).**
+    Contenu autorisé : Du texte qui n'est pas blans entre élément (Inter-element whitespace).
 
-**Omission de balises : Les deux balises sont nécessaire. Si </title est absent, le navigateur peut ignorer le reste de la page.**
+    Omission de balises : Les deux balises sont nécessaire. Si </title> est absent, le navigateur peut ignorer le reste de la page.
 
-**Parents autorisés : Un élément <head qui ne contient pas d'autre élément <title.**
+    Parents autorisés : Un élément <head> qui ne contient pas d'autre élément <title>.
 
 ---
 

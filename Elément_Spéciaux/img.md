@@ -521,3 +521,6 @@
 
 ---
 ## Mauvaise pratique
+    <img alt="image" src="pingouin.jpg" />
+---
+### Bonne pratique

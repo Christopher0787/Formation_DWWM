@@ -96,4 +96,11 @@
     Cela dit, un élément <header> est généralement destiné à contenir l'en-tête de la section environnante 
     (un élément <h1> à <h6>), mais ce n'est pas obligatoire.
 
+## Usage historique
+
+    Bien que l'élément <header> ne fasse pas partie de la spécification HTML avant HTML5, 
+    il existait de façon implicite depuis les premières versions. 
+    Comme on le voit sur le premier site web, il était initialement utilisé comme l'élément <head>. À un moment donné, il a été décidé d'utiliser un nom différent. 
+    Cela a permis à <header> d'être libre de remplir un rôle différent par la suite.
+
 ---

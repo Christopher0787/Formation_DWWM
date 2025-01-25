@@ -44,6 +44,6 @@
 
 ## **Exemples**
 
-**<titleEt voici le titre de ma page !</title**
+**<title Et voici le titre de ma page !</title**
 
 ---

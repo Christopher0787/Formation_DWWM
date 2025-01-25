@@ -93,6 +93,7 @@
 # **Note d'utilisation**
 
     L'élément <header> n'est pas une section de contenu et n'introduit donc pas de nouvelle section dans la structure. 
-    Cela dit, un élément <header> est généralement destiné à contenir l'en-tête de la section environnante (un élément <h1> à <h6>), mais ce n'est pas obligatoire.
+    Cela dit, un élément <header> est généralement destiné à contenir l'en-tête de la section environnante 
+    (un élément <h1> à <h6>), mais ce n'est pas obligatoire.
 
 ---

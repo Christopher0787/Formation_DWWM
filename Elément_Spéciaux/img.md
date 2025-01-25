@@ -100,14 +100,23 @@
 
 ---
 
+## **Erreur de chargement d'une image**
+
+    Si une erreur se produit lors du chargement ou du rendu de l'image 
+    et qu'un gestionnaire d'évènement onerror a été défini pour intercepter 
+    l'évènement error, le gestionnaire sera appelé. 
+    Cela peut arriver pour plusieurs raisons :
 
 
+        L'attribut src est vide ("") ou absent (null pour le DOM).
 
+        L'URL utilisée pour l'attribut src est la même que celle de la page courante.
 
+        L'image est corrompue et ne peut être chargée ainsi.
 
+        Les métadonnées associées à l'image sont corrompues de telle façon qu'il est impossible de connaître ses dimensions et qu'aucune dimension n'a été fournie pour les attributs de l'élément <img>.
 
-
-
+        Le format de l'image n'est pas pris en charge par l'agent utilisateur (généralement le navigateur).
 
 
 ---

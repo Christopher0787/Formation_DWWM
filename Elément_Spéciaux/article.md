@@ -111,12 +111,17 @@
 
     Chaque <article> autonome, qui n'est pas imbriqué dans un autre élément <article>, 
     devrait être identifié typiquement, en incluant un élément de titre <h1> à <h6>.
+
     Quand un élément <article> est imbriqué dans un autre, 
     l'élément contenu représente un article relatif à l'élément contenant. 
+
     Par exemple, les commentaires d'une parution de blog peuvent être un élément <article> inclus dans l'<article> représentant la parution en elle-même.
+
     Des informations à propos de l'auteur d'un élément <article> peuvent être fournies 
     au travers de l'élément <address>, mais cela ne s'applique pas aux éléments <article> imbriqués.
+
     La date et l'heure de publication d'un élément <article> peuvent être donnés en utilisant l'attribut datetime d'un élément <time>. 
+    
     Notez que l'attribut pubdate de <time> ne fait plus partie de la norme W3C HTML 5.
 
 ---

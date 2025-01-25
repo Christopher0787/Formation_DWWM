@@ -123,4 +123,22 @@
         color: #000;
     }
 
+### Résultat
+
+**must be provided**
+
+---
+
+
+
+## **Accessibilité**
+
+    Avant la publication de Safari 13, le rôle de repère contentinfo n'était pas correctement exposé par VoiceOver. 
+    Si vous devez prendre en charge les anciens navigateurs Safari, 
+    ajoutez role="contentinfo" à l'élément footer pour vous assurer que le landmark sera correctement exposé.
+
+        En rapport : WebKit Bugzilla : 146930 - AX : Les éléments natifs HTML 
+        (header, footer, main, aside, nav) devraient fonctionner de la même manière 
+        que les points de repère ARIA, parfois ce n'est pas le cas.
+
 ---

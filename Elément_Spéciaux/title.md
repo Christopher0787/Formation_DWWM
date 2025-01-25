@@ -47,3 +47,13 @@
 **<title Et voici le titre de ma page !</title**
 
 ---
+
+
+
+## **Accessibilité**
+
+**Il est important de fournir une valeur pour l'attribut title qui décrit le but de la page de façon claire et concise.**
+
+**Les personnes utilisant des outils d'assistance peuvent utiliser le titre de la page afin de déterminer rapidement ce qu'elle contient.** 
+
+**Ainsi, il peut ne pas être nécessaire de naviguer « dans » la page, ce qui peut prendre du temps et être source de confusion si, ce faisant, on doit déterminer le but de la page.**

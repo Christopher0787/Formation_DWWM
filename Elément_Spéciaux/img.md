@@ -349,12 +349,13 @@
         si la zone d'affichage n'est pas plus haute que 500px.
 
         Les valeurs pour les tailles de source indiquent la taille d'affichage souhaitée 
-        de l'image. Le navigateur utilise la taille de source courante correspondante pour sélectionner une des sources fournies par l'attribut srcset lorsque les sources y 
+        de l'image. Le navigateur utilise la taille de source courante correspondante pour sélectionner une des sources fournies 
+        par l'attribut srcset lorsque les sources y 
         sont décrites avec un descripteur de largeur (w). 
         La taille de source sélectionnée affecte la taille intrinsèque de l'image 
         (c'est-à-dire la taille occupée à l'écran si aucun style CSS n'est appliqué). 
-        Si l'attribut srcset est absent ou qu'il ne contient pas de valeur avec un descripteur 
-        de largeur, l'attribut sizes aura aucun effet.
+        Si l'attribut srcset est absent ou qu'il ne contient pas de valeur 
+        avec un descripteur de largeur, l'attribut sizes aura aucun effet.
 
     src
         L'URL de l'image. Cet attribut est obligatoire. 

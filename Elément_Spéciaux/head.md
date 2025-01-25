@@ -10,6 +10,7 @@
 
 
 ## **Attributs**
+
 **Comme tous les éléments HTML, cet élément prend en charge les attributs universels.**
 
 **profile : Obsolète**
@@ -31,8 +32,21 @@
 
 
 ## **Notes**
+
 **La plupart des navigateurs conformes à HTML5 construisent automatiquement l'élément <head si les balises sont omises dans le balisage.** 
 **Cependant, ce comportement n'est pas garanti pour les navigateurs antérieurs.**
+
+---
+
+
+
+## **Résumé Technique**
+
+**Conten autorisé : Si le document est un document source (srcdoc) d'une <iframe ou si l'information pour le titre est disponible via un protocole de plus haut niveau zéro ou plusieurs éléments de méta-données. Sinon un ou plusieurs éléments de méta-données dont un (et un seul) est un élément <title.**
+
+**Omission de balises : La balise de début peut être absente si le premier contenu est un élément. La balise de fermeture peut être absente si le premier objet suivant l'élément <head n'est pas un caractère blanc ou un commentaire.**
+
+**Parents autorisés : Cet élément doit être le premier enfant de l'élément <html.**
 
 ---
 

@@ -124,3 +124,7 @@
     ARIA qui nécessitent un élément descendant direct avec un rôle donné pour fonctionner correctement.
 
 ---
+
+
+## **Compatibilité des navigateurs**
+

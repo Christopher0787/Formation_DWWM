@@ -37,4 +37,4 @@
     élément de bloc est analysé avant la balise de fermeture </p> 
     (voir Omission de balises dans le tableau qui suit)
 
-    ---
+ ---

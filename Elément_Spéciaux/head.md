@@ -8,4 +8,5 @@
 **Comme tous les éléments HTML, cet élément prend en charge les attributs universels.**
 
 **profile : Obsolète**
+
 **L'URI d'un ou plusieurs profils de métadonnées, séparés par un espace.**

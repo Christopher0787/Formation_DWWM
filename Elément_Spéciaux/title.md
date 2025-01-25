@@ -16,6 +16,7 @@
 
 
 ## **Notes d'utilisation**
+
 **L'élément <title est toujours utilisé au sein de l'élément <head de la page.**
 
 ## Référencement (SEO)

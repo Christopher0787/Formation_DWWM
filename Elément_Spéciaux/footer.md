@@ -142,3 +142,8 @@
         que les points de repère ARIA, parfois ce n'est pas le cas.
 
 ---
+
+
+
+## **Compatibilité des navigateurs**
+

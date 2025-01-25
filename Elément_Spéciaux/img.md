@@ -33,7 +33,9 @@
 
         L'attribut src est obligatoire, et contient le chemin vers l'image qu'on veut intégrer.
 
-        L'attribut alt est obligatoire et contient une description textuelle de l'image, ce qui est extrêmement utile. En effet, les outils de lecture d'écran utilisent cette description pour 
+        L'attribut alt est obligatoire et contient une description textuelle de l'image, ce qui est extrêmement utile.
+         
+        En effet, les outils de lecture d'écran utilisent cette description pour 
         la lire afin que les personnes sachent ce que l'image représente.
 
         Ce texte alternatif sera également affiché sur la page si l'image ne peut pas être chargée 

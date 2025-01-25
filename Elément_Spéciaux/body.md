@@ -25,7 +25,6 @@
 
 	Il doit être le second élément d'un élément <html>.
 
-
 ---
 
 
@@ -103,3 +102,19 @@
     onunload
 **Fonction à appeler quand le document disparait.**
 
+---
+
+
+
+## **Exemples**
+
+    <html>
+        <head>
+            <title>Titre du document</title>
+        </head>
+        <body>
+            <p>L'élément HTML <code>&lt;body&gt;</code> représente le contenu principal du document HTML. Il ne peut y avoir qu'un élément <body> par document.</p>
+        </body>
+    </html>
+
+---

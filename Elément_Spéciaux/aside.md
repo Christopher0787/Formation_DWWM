@@ -45,3 +45,17 @@
     }
 
 ---
+
+## **Attributs**
+    Cet élément ne comprend que les attributs universels.
+---
+## **Notes d'utilisation**
+    On ne doit pas utiliser l'élément <aside> pour marquer du texte entre parenthèses, 
+    ce type de texte est considéré comme faisant partie du flux principal.
+---
+## **Exemples**
+    Dans cet exemple, on utilise <aside> afin de baliser un paragraphe d'un article. 
+    Ici, le paragraphe n'est pas directement lié au contenu principal de l'article et 
+    c'est pour cela qu'on utilise cet élément.
+
+---

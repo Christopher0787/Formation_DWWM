@@ -87,6 +87,7 @@
 
     Les informations sur l'autrice ou l'auteur doivent être placées dans un élément <address> 
     et incluses dans l'élément <footer>.
-    L'élément <footer> n'a pas de contenu sectionnant et ne peut donc pas introduire une nouvelle section dans le plan.
+    L'élément <footer> n'a pas de contenu sectionnant et ne peut donc pas introduire une 
+    nouvelle section dans le plan.
 
 ---

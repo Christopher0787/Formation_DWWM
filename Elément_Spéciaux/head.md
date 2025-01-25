@@ -24,3 +24,15 @@
 **La plupart des navigateurs conformes à HTML5 construisent automatiquement l'élément <head si les balises sont omises dans le balisage.** 
 **Cependant, ce comportement n'est pas garanti pour les navigateurs antérieurs.**
 ---
+
+## **Compatibilité des navigateurs**
+**| Navigateur          | Compatibilité Ordinateur | Compatibilité Mobile |**
+|---------------------|--------------------------|----------------------|
+| Google Chrome       | ✅ (Très fiable)         | ✅ (Très fiable)     |
+| Mozilla Firefox     | ✅ (Très fiable)         | ✅ (Très fiable)     |
+| Safari              | ✅ (Très fiable)         | ✅ (Très fiable)     |
+| Microsoft Edge      | ✅ (Très fiable)         | ✅ (Très fiable)     |
+| Opera               | ✅ (Très fiable)         | ✅ (Très fiable)     |
+| Samsung Internet    | N/A                      | ✅ (Très fiable)     |
+| Internet Explorer   | ⚠️ (Moins fiable)        | N/A                  |
+---

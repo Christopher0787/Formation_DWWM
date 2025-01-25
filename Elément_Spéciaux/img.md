@@ -282,16 +282,19 @@
     loading
         Indique comment le navigateur devrait charger l'image :
 
-    eager
+             eager
 
-        : L'image est chargée immédiatement, que l'image soit située dans la zone 
-        d'affichage (viewport) visible ou non. Il s'agit de la valeur par défaut.
-    lazy
+                : L'image est chargée immédiatement, que l'image soit située dans 
+                la zone d'affichage (viewport) visible ou non. Il s'agit de la valeur 
+                par défaut.
+            lazy
 
-        : Le chargement de l'image est retardé jusqu'à ce que celle-ci soit située 
-        à une certaine distance, définie par le navigateur, de la zone d'affichage. 
-        L'idée est d'éviter de consommer de la bande passante et des ressources réseaux 
-        avant d'être relativement certain que l'image est nécessaire. 
-        Pour la plupart des cas d'usage, cela permet d'améliorer les performances.
+                : Le chargement de l'image est retardé jusqu'à ce que celle-ci soit située 
+                à une certaine distance, définie par le navigateur, de la zone d'affichage.
+
+                L'idée est d'éviter de consommer de la bande passante et des ressources réseaux 
+                avant d'être relativement certain que l'image est nécessaire. 
+                
+                Pour la plupart des cas d'usage, cela permet d'améliorer les performances.
 
 ---

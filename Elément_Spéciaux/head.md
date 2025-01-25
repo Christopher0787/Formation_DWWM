@@ -1,0 +1,1 @@
+# **<head> : l'élément de métadonnées (en-tête) du document**

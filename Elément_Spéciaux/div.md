@@ -51,3 +51,40 @@
     comme étant écrite dans une langue différente (à l'aide de l'attribut lang), etc.
 
 ---
+
+
+## **Attributs**
+
+    Comme tous les autres éléments HTML, cet élément accepte les attributs universels.
+
+
+## **Notes d'utilisation**
+
+    L'élément <div> doit uniquement être utilisé lorsqu'il n'existe aucun autre élément 
+    dont la sémantique permet de représenter le contenu (par exemple <article> ou <nav>).
+
+
+## **Exemples**
+
+## Un exemple simple
+
+    <div>
+        <p>
+            Tout type de contenu. Par exemple &lt;p&gt;, &lt;table&gt;. À vous de
+            voir&nbsp;!
+        </p>
+    </div>
+
+---
+
+## Résultat
+
+**must be provided**
+
+## Un exemple mis en forme
+
+    Cet exemple crée une boîte avec une ombre en appliquant la mise en forme via du CSS 
+    sur l'élément <div>. On notera l'utilisation de l'attribut class sur l'élément <div> 
+    afin d'appliquer la règle "shadowbox".
+
+---

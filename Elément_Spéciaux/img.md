@@ -159,3 +159,29 @@
         ayant déclenché l'enregistrement.
 
         La source ou le déclencheur correspondant est éteint lorsque le navigateur reçoit la réponse contenant le fichier image.
+
+---
+
+
+    Il existe deux versions de cet attribut :
+
+        Une forme booléenne (c'est-à-dire l'utilisation du nom attributionsrc seul) 
+        qui indique qu'on souhaite envoyer l'en-tête Attribution-Reporting-Eligible 
+        au même serveur que celui vers lequel pointe l'attribut src. 
+        Cela fonctionne quand la source d'attribution ou le déclencheur d'enregistrement 
+        sont gérés sur le même serveur. Lors de l'enregistrement d'un déclencheur d'attribution, 
+        cette propriété est optionnelle et une valeur booléenne sera utilisée si elle est absente.
+
+        Une valeur contenant une ou plusieurs URL, comme :
+
+---
+
+## HTML
+
+    <img
+        src="image-file.png"
+        alt="Ma description d'image"
+        attributionsrc="https://a.example/register-source
+                            https://b.example/register-source" />
+
+---

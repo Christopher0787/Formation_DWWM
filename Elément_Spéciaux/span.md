@@ -63,3 +63,7 @@
     }
 
 ---
+
+
+## **Compatibilité des navigateurs**
+

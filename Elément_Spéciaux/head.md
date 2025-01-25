@@ -13,8 +13,8 @@
 ---
 
 ## **Exemples**
-<html>
-  <head>
-    <title>Titre du document</title>
-  </head>
-</html>
+    <html>
+        <head>
+            <title>Titre du document</title>
+        </head>
+    </html>

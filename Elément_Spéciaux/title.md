@@ -61,3 +61,10 @@
 ### **Exemple**
 
 **<title Menu - Restaurant chinois Maison bleue - Commande en ligne</title**
+
+**Mettre à jour la valeur de title afin de refléter un changement d'état important (un problème de validation d'un formulaire par exemple) peut également s'avérer utile :**
+
+**<title
+  2 erreurs sur votre commande - Restaurant chinois Maison bleue - Commande en
+  ligne
+</title**

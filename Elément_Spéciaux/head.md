@@ -31,6 +31,7 @@
 ## **Notes**
 **La plupart des navigateurs conformes à HTML5 construisent automatiquement l'élément <head si les balises sont omises dans le balisage.** 
 **Cependant, ce comportement n'est pas garanti pour les navigateurs antérieurs.**
+
 ---
 
 

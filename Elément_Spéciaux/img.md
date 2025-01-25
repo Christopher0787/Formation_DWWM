@@ -399,7 +399,7 @@
 ## **Attributs dépréciés**
 
     top
-    
+
         Équivalent à vertical-align: top ou vertical-align: text-top
 ---
     middle
@@ -419,3 +419,6 @@
         Équivalent à float: right
 
 ---
+
+
+## **Mettre en forme avec CSS**

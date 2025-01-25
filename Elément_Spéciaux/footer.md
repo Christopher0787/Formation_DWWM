@@ -91,3 +91,33 @@
     nouvelle section dans le plan.
 
 ---
+
+
+
+## **Exemples**
+
+    HTML
+    <body>
+        <h3>Les écrivains français du XIX<sup>ème</sup> siècle</h3>
+        <ul>
+            <li>Hugo</li>
+            <li>Flaubert</li>
+            <li>Zola</li>
+            <li>Maupassant</li>
+        </ul>
+
+        <footer>
+            <small>Copyright © 2023 Littérature.com. Tous droits réservés.</small>
+        </footer>
+    </body>
+
+
+    CSS
+    footer {
+        text-align: center;
+        padding: 5px;
+        background-color: #abbaba;
+        color: #000;
+    }
+
+---

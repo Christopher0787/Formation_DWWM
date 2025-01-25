@@ -174,3 +174,15 @@
 
 
 ## **Compatibilité des navigateurs**
+
+| Navigateur          | Compatibilité Ordinateur | Compatibilité Mobile |
+|---------------------|--------------------------|----------------------|
+| Google Chrome       | ✅ (Très fiable)         | ✅ (Très fiable)     |
+| Mozilla Firefox     | ✅ (Très fiable)         | ✅ (Très fiable)     |
+| Safari              | ✅ (Très fiable)         | ✅ (Très fiable)     |
+| Microsoft Edge      | ✅ (Très fiable)         | ✅ (Très fiable)     |
+| Opera               | ✅ (Très fiable)         | ✅ (Très fiable)     |
+| Samsung Internet    | N/A                      | ✅ (Très fiable)     |
+| Internet Explorer   | ⚠️ (Moins fiable)        | N/A                  |
+
+---

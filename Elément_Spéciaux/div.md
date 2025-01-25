@@ -13,16 +13,18 @@
 
 ## **Exemple interactif**
 
-### **Exemple interactif**
     HTML Demo: <div>
-### **Exemple interactif en HTML**
+
+
+## **Exemple interactif en HTML**
+
     <div class="warning">
         <img src="/media/examples/leopard.jpg" alt="An intimidating leopard." />
         <p>Beware of the leopard</p>
     </div>
 
 
-### **Exemple interactif en CSS**
+## **Exemple interactif en CSS**
     .warning {
         border: 10px ridge #f00;
         background-color: #ff0;

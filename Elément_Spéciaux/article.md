@@ -16,10 +16,8 @@
 
 
 ## **Exemple interactif**
-
-### **Exemple interactif en HTML**
-
     HTML Demo: <article>
+### **Exemple interactif en HTML**
 
     <article class="forecast">
         <h1>Weather forecast for Seattle</h1>
@@ -36,7 +34,6 @@
             <p>Heavy rain.</p>
         </article>
     </article>
-
 
 
 ### **Exemple interactif en CSS**

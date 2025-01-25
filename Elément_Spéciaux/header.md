@@ -113,3 +113,40 @@
 **Cet élément ne possède que les attributs universels.**
 
 ---
+
+
+
+## **Exemples**
+
+## En-tête de page
+
+    <header>
+        <h1>Titre principal</h1>
+        <img src="mdn-logo-sm.png" alt="Logo de MDN" />
+    </header>
+
+### Résultat
+
+**must be provided**
+
+## En-tête d'un article
+
+    <article>
+        <header>
+            <h2>La planète Terre</h2>
+            <p>
+                Publié le mercredi <time datetime="2017-10-04">4 octobre 2017</time> par
+                Jeanne Smith
+            </p>
+        </header>
+        <p>Nous vivons sur une planète bleue et verte</p>
+        <p>
+             <a href="https://example.com/the-planet-earth/">Poursuivre la lecture…</a>
+        </p>
+    </article>
+
+### Résultat
+
+**must be provided**
+
+---

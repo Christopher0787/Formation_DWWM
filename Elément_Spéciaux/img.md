@@ -520,7 +520,7 @@
     Si l'attribut alt est omis volontairement, car l'image n'a pas d'équivalent textuel, utilisez d'autres méthodes afin d'indiquer le message véhiculé par l'image.
 
 ---
-## Mauvaise pratique
+### Mauvaise pratique
     <img alt="image" src="pingouin.jpg" />
 ---
 ### Bonne pratique

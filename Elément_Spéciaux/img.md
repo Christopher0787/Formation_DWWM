@@ -488,7 +488,8 @@
 ## Utiliser les attributs srcset et sizes
 
     L'attribut src est ignoré par les agents utilisateurs qui le prennent en charge lorsque 
-    les descripteurs w sont présents. Lorsque la condition (max-width: 600px) est respectée, l'image large de 200 pixels sera chargée 
+    les descripteurs w sont présents. Lorsque la condition (max-width: 600px) est 
+    respectée, l'image large de 200 pixels sera chargée 
     (car c'est celle qui est la plus proche de 200px). 
     Dans les autres cas, c'est l'autre image qui est chargée.
 ---

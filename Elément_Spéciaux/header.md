@@ -71,12 +71,15 @@
 ---
 
 ### **Parents autorisés :** 
-    Tout élément acceptant du contenu de flux. Il est à noter qu'un élément <header> ne doit pas descendre d'un élément <address>, <footer> ou d'un autre élément <header>.
+    Tout élément acceptant du contenu de flux. 
+    Il est à noter qu'un élément <header> ne doit pas descendre d'un élément <address>, <footer> ou d'un autre élément <header>.
 
 ---
 
 ### **Rôle ARIA implicite :** 
-    banner, ou aucun rôle correspondant si l'élément <header> descend d'un élément <article>, <aside>, <main>, <nav> ou <section>, ou d'un élément ayant le rôle article, complementary, main, navigation ou region
+    banner, ou aucun rôle correspondant si l'élément <header> descend d'un 
+    élément <article>, <aside>, <main>, <nav> ou <section>, ou d'un élément 
+    ayant le rôle article, complementary, main, navigation ou region
 
 ---
 

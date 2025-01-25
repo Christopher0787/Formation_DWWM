@@ -123,3 +123,13 @@
     Notez que l'attribut pubdate de <time> ne fait plus partie de la norme W3C HTML 5.
 
 ---
+
+
+
+## **Exemples**
+
+
+
+
+
+

@@ -583,7 +583,8 @@
     qui apparaît au survol du curseur sur l'image. Bien que cet attribut puisse fournir 
     des informations supplémentaires, on ne doit pas s'attendre à ce que toute personne le voit : 
     par exemple lorsque la navigation est effectuée au clavier ou sur un écran tactile. 
-    Si les informations à afficher sont particulièrement importantes ou utiles, on utilisera les méthodes évoquées ci-avant plutôt que title.
+    Si les informations à afficher sont particulièrement importantes ou utiles, on utilisera 
+    les méthodes évoquées ci-avant plutôt que title.
 
 ---
 

@@ -12,3 +12,57 @@
     ou tout autre élément de contenu indépendant.
 
 ---
+
+
+
+## **Exemple interactif**
+
+## **Exemple interactif en HTML**
+
+    HTML Demo: <article>
+
+    <article class="forecast">
+        <h1>Weather forecast for Seattle</h1>
+    <   article class="day-forecast">
+            <h2>03 March 2018</h2>
+            <p>Rain.</p>
+        </article>
+        <article class="day-forecast">
+            <h2>04 March 2018</h2>
+            <p>Periods of rain.</p>
+        </article>
+        <article class="day-forecast">
+            <h2>05 March 2018</h2>
+            <p>Heavy rain.</p>
+        </article>
+    </article>
+
+
+
+## **Exemple interactif en CSS**
+
+    .forecast {
+        margin: 0;
+        padding: 0.3rem;
+        background-color: #eee;
+    }
+
+    .forecast > h1,
+    .day-forecast {
+        margin: 0.5rem;
+        padding: 0.3rem;
+        font-size: 1.2rem;
+    }
+
+    .day-forecast {
+        background: right/contain content-box border-box no-repeat
+            url('/media/examples/rain.svg') white;
+    }
+
+    .day-forecast > h2,
+    .day-forecast > p {
+        margin: 0.2rem;
+        font-size: 1rem;
+    }
+
+---

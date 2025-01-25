@@ -3,7 +3,8 @@
 
 
 
-**L'élément HTML <head fournit des informations générales (métadonnées) sur le document, incluant son titre et des liens ou des définitions vers des scripts et feuilles de style.**
+## **L'élément HTML <head fournit des informations générales (métadonnées) sur le document, incluant son titre et des liens ou des définitions vers des scripts et feuilles de style.**
+
 ---
 
 

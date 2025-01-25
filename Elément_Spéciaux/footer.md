@@ -60,10 +60,13 @@
     Aucune, la balise ouvrante et la balise fermante sont toutes les deux obligatoires.
 
 ### **Parents autorisés :** 
-    Tout élément qui accepte du contenu de flux. Un élément <footer> ne doit pas descendre d'un élément <address>, <header> ou d'un autre élément <footer>.
+    Tout élément qui accepte du contenu de flux. 
+    Un élément <footer> ne doit pas descendre d'un élément <address>, <header> 
+    ou d'un autre élément <footer>.
 
 ### **Rôle ARIA implicite :** 
-    contentinfo, ou pas de rôle correspondant si un descendant d'un élément <article>, <aside>, <main>, <nav> ou <section>, ou un élément avec role=article, complementary, main, navigation ou region.
+    contentinfo, ou pas de rôle correspondant si un descendant d'un élément <article>, <aside>, <main>, <nav> ou <section>, 
+    ou un élément avec role=article, complementary, main, navigation ou region.
 
 ### **Rôle ARIA autorisés :** 
     group, none, presentation

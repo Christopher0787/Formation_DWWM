@@ -161,3 +161,7 @@
     il n'est pas considéré comme un repère banner.
 
 ---
+
+
+
+## **Compatibilité des Navigateurs**

@@ -55,3 +55,32 @@
         }
 
 ---
+
+
+
+## **Résumé Technique**
+
+### **Contenu autorisé :**
+    Contenu de flux mais sans élément descendant qui soit <header> ou <footer>.
+
+---
+
+### **Omission de balises :** 
+    Aucune, les balises d'ouverture et de fermeture sont obligatoires.
+
+---
+
+### **Parents autorisés :** 
+    Tout élément acceptant du contenu de flux. Il est à noter qu'un élément <header> ne doit pas descendre d'un élément <address>, <footer> ou d'un autre élément <header>.
+
+---
+
+### **Rôle ARIA implicite :** 
+    banner, ou aucun rôle correspondant si l'élément <header> descend d'un élément <article>, <aside>, <main>, <nav> ou <section>, ou d'un élément ayant le rôle article, complementary, main, navigation ou region
+
+---
+
+### **Rôle ARIA autorisés :** 
+    roup, presentation ou none
+
+

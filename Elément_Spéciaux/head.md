@@ -42,7 +42,7 @@
 
 ## **Résumé Technique**
 
-### **Conten autorisé :**
+### **Contenu autorisé :**
 
     Si le document est un document source (srcdoc) d'une <iframe ou si l'information pour le titre est disponible 
     via un protocole de plus haut niveau zéro ou plusieurs éléments de méta-données. 

@@ -10,3 +10,11 @@
 **profile : Obsolète**
 
 **L'URI d'un ou plusieurs profils de métadonnées, séparés par un espace.**
+---
+
+## **Exemples**
+<html>
+  <head>
+    <title>Titre du document</title>
+  </head>
+</html>

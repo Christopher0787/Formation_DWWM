@@ -26,6 +26,7 @@
 
 
 ## **Exemples**
+
     <html>
         <head>
             <title>Titre du document</title>

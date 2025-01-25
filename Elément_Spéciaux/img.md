@@ -199,7 +199,7 @@
         ou Attribution-Reporting-Register-Trigger afin de finaliser l'enregistrement.
 
 
-##  crossorigin
+###  crossorigin
 
         Indique que la récupération de l'image doit être effectuée avec une requête CORS. 
         Les données provenant d'une image chargée via une requête CORS peuvent être réutilisées 
@@ -218,11 +218,11 @@
 
         Les valeurs autorisées pour cet attribut sont :
 ---
-##  anonymous
+###  anonymous
         Une requête CORS est envoyée sans informations d'authentification 
         (c'est-à-dire sans cookie, certificat X.509, ou en-tête de requête Authorization).
 ---
-##  use-credentials
+###  use-credentials
         La requête CORS est envoyée avec les informations d'authentification 
         (cookies, certificat X.509 et/ou en-tête Authorization).
 
@@ -232,54 +232,54 @@
         le navigateur marque l'image comme potentiellement 
         corrompue et restreint l'accès à ses données.
 ---
-### Si la valeur de l'attribut est invalide, les navigateurs considèrent que la valeur anonymous a été utilisée. 
-### Voir les attributs de paramétrage du CORS pour plus d'informations.
+## Si la valeur de l'attribut est invalide, les navigateurs considèrent que la valeur anonymous a été utilisée. 
+## Voir les attributs de paramétrage du CORS pour plus d'informations.
 ---
-##  decoding
+###  decoding
         Fournit au navigateur une indication pour décoder l'image. 
         Les valeurs autorisées sont :
 ---
-##  sync
+###  sync
         L'image est décodée de façon synchrone afin d'être présentée de façon atomique 
         avec le reste du contenu.
 ---
-##  async
+###  async
         L'image est décodée de façon asynchrone afin de réduire le temps nécessaire à 
         l'affichage du reste du contenu.
 ---
-##  auto
+###  auto
         La valeur par défaut qui indique qu'il n'y a pas de préférence. C'est le navigateur 
         qui décide alors ce qui est le mieux.
 ---
-##  elementtiming
+###  elementtiming
         Indique que l'image doit être observée par l'API PerformanceElementTiming. 
         La valeur fournie devient un identifiant pour l'élément observé. 
         Voir aussi la page de l'atttribut elementtiming.
 ---
-##  fetchpriority
+###  fetchpriority
         Fournit une indication de la priorité relative à utiliser pour la récupération 
         de l'image. Les valeurs autorisées sont :
 ---
-##  high
+###  high
         L'image est récupérée avec une priorité plus élevée que les autres images.
 ---
-##  low
+###  low
         L'image est récupérée avec une priorité plus faible que les autres images.
 ---
-##  auto
+###  auto
         La valeur par défaut. Il n'y a pas de préférence pour la priorité.
 ---
 ### Voir HTMLImageElement.fetchPriority pour plus d'informations.
 
-##  height
+###  height
         La hauteur intrinsèque de l'image, exprimée en pixels. Cette valeur doit 
         être un nombre entier, sans unité.
 ---
-##  ismap
+###  ismap
         Cet attribut booléen indique que l'image fait partie d'une carte côté serveur.
         Dans ce cas, les coordonnées du clic sur l'image sont envoyés au serveur.
 ---
-##  loading
+###  loading
         Indique comment le navigateur devrait charger l'image :
 
              eager
@@ -300,43 +300,43 @@
 ---
 
 
-##  referrerpolicy
+###  referrerpolicy
         Une chaîne de caractères qui indique le référent à utiliser lors de la récupération 
         de la ressource :
 ---
-##  no-referrer
+###  no-referrer
         L'en-tête Referer n'est pas envoyé.
 ---
-##  no-referrer-when-downgrade
+###  no-referrer-when-downgrade
         L'en-tête Referer ne sera pas envoyé aux origines sans TLS/HTTPS.
 ---
-##  origin:
+###  origin:
         Le référent envoyé sera limité à l'origine de la page référente, c'est-à-dire 
         qu'il ne contiendra que le schéma, l'hôte et le port.
 ---
-##  origin-when-cross-origin
+###  origin-when-cross-origin
         Le référent envoyé aux autres origines sera limité au schéma, à l'hôte et au port. 
         La navigation vers la même origine contiendra le chemin.
 ---
-##  same-origin
+###  same-origin
         Un référent sera envoyé vers les mêmes origines mais les requêtes vers d'autres 
         origines ne contiendront pas de référent.
 ---
-##  strict-origin
+###  strict-origin
         N'envoie l'origine du document comme référent que lorsque le niveau de sécurité du protocole reste le même (HTTPS→HTTPS) 
         et pas lorsque la destination est moins sécurisée (HTTPS→HTTP).
 ---
-##  strict-origin-when-cross-origin (la valeur par défaut)
+###  strict-origin-when-cross-origin (la valeur par défaut)
         Envoie l'URL complète lors d'une requête vers la même origine, n'envoie que l'origine 
         pour les requêtes vers d'autres origines si le niveau de sécurité du protocole reste 
         le même (HTTPS→HTTPS), n'envoie aucun en-tête correspondant vers une destination moins sécurisée (HTTPS→HTTP).
 ---
-##  unsafe-url
+###  unsafe-url
         Le référent inclut l'origine et le chemin (mais pas le fragment, le mot de passe ou 
         le nom d'utilisateur). Cette valeur n'est pas sécurisée, car elle diffuse l'origine 
         et les chemins de ressources protégées par TLS vers des origines non-sécurisées.
 
-##  sizes
+###  sizes
         Une ou plusieurs chaînes de caractères séparées par des virgules et qui indiquent 
         un ensemble de tailles de source possible. Chaque taille de source consiste en :
 
@@ -357,13 +357,13 @@
         Si l'attribut srcset est absent ou qu'il ne contient pas de valeur 
         avec un descripteur de largeur, l'attribut sizes aura aucun effet.
 ---
-##  src
+###  src
         L'URL de l'image. Cet attribut est obligatoire. 
         Pour les navigateurs qui prennent en charge srcset, l'image fourni par src est considérée comme une candidate 
         avec un descripteur de densité de pixel à 1x, sauf si une image avec 
         un tel descripteur est déjà définie dans srcset, ou si srcset contient des descripteurs w.
 ---
-##  srcset
+###  srcset
         Une ou plusieurs chaînes de caractères séparées par des virgules, qui indiquent des 
         sources possibles pour l'image que le navigateur pourra utiliser. Chaque chaîne de caractères se compose :
 
@@ -387,11 +387,11 @@
         de l'utilisateur ou les conditions réseau. 
         Voir le tutoriel sur les images adaptatives pour un exemple.
 
-##  width
+###  width
         La largeur intrinsèque de l'image, exprimée en pixels. La valeur doit être un nombre 
         entier sans unité.
 ---
-##  usemap
+###  usemap
         L'URL partielle (commençant par #) d'une carte d'image associée à l'élément.
 
 ---

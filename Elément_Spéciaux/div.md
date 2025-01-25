@@ -43,3 +43,11 @@
     }
 
 ---
+
+
+    En tant que conteneur « pur », l'élément <div> ne représente rien en soi. 
+    Il est plutôt utilisé pour regrouper le contenu afin qu'il puisse être facilement 
+    stylé à l'aide des attributs class ou id, pour marquer une section d'un document 
+    comme étant écrite dans une langue différente (à l'aide de l'attribut lang), etc.
+
+---

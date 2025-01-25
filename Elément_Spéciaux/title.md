@@ -39,3 +39,11 @@
     * Le titre devra être unique pour un même site.
 
 ---
+
+
+
+## **Exemples**
+
+**<titleEt voici le titre de ma page !</title**
+
+---

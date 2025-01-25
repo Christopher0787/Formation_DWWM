@@ -97,7 +97,7 @@
 ## **Exemples**
 
     HTML
----
+
     <body>
         <h3>Les écrivains français du XIX<sup>ème</sup> siècle</h3>
         <ul>
@@ -115,7 +115,7 @@
 ---
 
     CSS
----
+
     footer {
         text-align: center;
         padding: 5px;

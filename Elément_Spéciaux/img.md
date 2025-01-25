@@ -488,7 +488,9 @@
 ## Utiliser les attributs srcset et sizes
 
     L'attribut src est ignoré par les agents utilisateurs qui le prennent en charge lorsque 
-    les descripteurs w sont présents. Lorsque la condition (max-width: 600px) est respectée, l'image large de 200 pixels sera chargée (car c'est celle qui est la plus proche de 200px). Dans les autres cas, c'est l'autre image qui est chargée.
+    les descripteurs w sont présents. Lorsque la condition (max-width: 600px) est respectée, l'image large de 200 pixels sera chargée 
+    (car c'est celle qui est la plus proche de 200px). 
+    Dans les autres cas, c'est l'autre image qui est chargée.
 ---
     HTML
 
@@ -517,7 +519,8 @@
     La valeur d'un attribut alt devrait toujours décrire le contenu de l'image de façon claire
     et concise. 
     Elle ne doit pas décrire la présence de l'image ou le nom du fichier de l'image. 
-    Si l'attribut alt est omis volontairement, car l'image n'a pas d'équivalent textuel, utilisez d'autres méthodes afin d'indiquer le message véhiculé par l'image.
+    Si l'attribut alt est omis volontairement, car l'image n'a pas d'équivalent textuel, utilisez d'autres méthodes afin 
+    d'indiquer le message véhiculé par l'image.
 
 ---
 ### Mauvaise pratique

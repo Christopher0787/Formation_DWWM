@@ -365,14 +365,16 @@
 
             Éventuellement, d'un espace suivi :
 
-                 D'un descripteur de largeur (un entier positif suivi par w). Le descripteur de largeur est divisé par la taille de source fournie par l'attribut sizes afin de calculer la densité de pixel effective.
+                 D'un descripteur de largeur (un entier positif suivi par w). Le descripteur de largeur est divisé 
+                 par la taille de source fournie par l'attribut sizes afin de calculer la densité de pixel effective.
 
                 D'un descripteur de densité de pixel (un nombre décimal positif suivi par x).
 
         Si aucun descripteur n'est indiqué, la source se voit affecter un descripteur par 
         défaut de 1x.
 
-        Toute combinaison des deux types de descripteur sera invalide. De même, indiquer deux sources avec le même descripteur sera invalide.
+        Toute combinaison des deux types de descripteur sera invalide. De même, indiquer 
+        deux sources avec le même descripteur sera invalide.
 
         L'agent utilisateur sélectionne une des sources disponibles comme il l'entend. 
         Cette liberté permet de baser le choix sur d'autres facteurs comme les préférences 

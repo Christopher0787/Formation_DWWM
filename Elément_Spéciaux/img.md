@@ -122,3 +122,35 @@
 
 
 ---
+
+
+## **Attributs**
+
+    On peut utiliser les attributs universels sur cet élément.
+
+        alt
+
+    Définit une description textuelle alternative pour l'image.
+
+    Utiliser la chaîne de caractères vide comme valeur pour cet attribut (alt="") 
+    indique que cette image n'est pas importante pour le contenu 
+    (par exemple une décoration ou un pixel de pistage), dans ce cas, les navigateurs 
+    non-visuels peuvent ne pas la traiter pour le rendu. 
+    Les navigateurs visuels masqueront l'icône de l'image cassée si alt est vide et 
+    que le chargement de l'image a échoué.
+
+    Cet attribut est également utilisé pour copier/coller l'image vers du texte ou 
+    pour enregistrer un marque-page avec l'image associée.
+
+        attributionsrc :Expérimental
+
+    Indique au navigateur d'envoyer un en-tête Attribution-Reporting-Eligible avec 
+    la requête pour l'image.
+
+    Côté serveur, cela sert à déclencher l'envoi d'un en-tête 
+    Attribution-Reporting-Register-Source ou Attribution-Reporting-Register-Trigger 
+    dans la réponse afin d'enregistrer une source d'attribution ou un déclencheur d'attribution.
+
+    L'en-tête de réponse renvoyé dépend de la valeur de l'en-tête Attribution-Reporting-Eligible ayant déclenché l'enregistrement.
+
+    La source ou le déclencheur correspondant est éteint lorsque le navigateur reçoit la réponse contenant le fichier image.

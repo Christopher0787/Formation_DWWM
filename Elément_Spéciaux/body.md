@@ -27,3 +27,61 @@
 
 
 ---
+
+
+
+## **Attributs**
+
+    onafterprint
+**Fonction à appeler après que l'utilisateur ait imprimé le document.**
+
+onbeforeprint
+Fonction à appeler lorsque l'utilisateur lance une impression du document.
+
+onbeforeunload
+Fonction à appeler avant que le document ne disparaisse.
+
+onblur
+Fonction à appeler quand le document perd le focus.
+
+onerror
+Fonction à appeler quand le document n'arrive pas à se charger correctement.
+
+onfocus
+Fonction à appeler quand le document reçoit le focus.
+
+onhashchange
+Fonction à appeler quand le fragment (la partie commençant avec le caractère #) de l'adresse actuelle du document, a changé.
+
+onlanguagechange Expérimental
+Fonction à appeler lorsque les langues préférées ont été modifiées.
+
+onload
+Fonction à appeler quand le document a fini de charger.
+
+onmessage
+Fonction à appeler quand le document a reçu un message.
+
+onoffline
+Fonction à appeler quand la connexion réseau est perdue.
+
+ononline
+Fonction à appeler quand la connexion réseau est restaurée.
+
+onpopstate
+Fonction à appeler quand l'utilisateur se déplace dans son historique de session.
+
+onredo
+Fonction à appeler quand l'utilisateur avance et refait un élément de l'historique de transaction.
+
+onresize
+Fonction à appeler quand le document a été redimensionné.
+
+onstorage
+Fonction à appeler quand la zone de stockage a changée.
+
+onundo
+Fonction à appeler quand l'utilisateur recule et défait l'historique de transaction.
+
+onunload
+Fonction à appeler quand le document disparait.

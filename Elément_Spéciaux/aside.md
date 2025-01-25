@@ -59,3 +59,15 @@
     c'est pour cela qu'on utilise cet élément.
 
 ---
+    HTML
+
+    <article>
+        <p>
+            Le film Disney <cite>La petite Sirène</cite> est sorti en salles en 1989.
+        </p>
+        <aside>
+            <p>Le film a gagné 87 millions de dollars pendant sa sortie initiale.</p>
+        </aside>
+        <p>Plus d'informations sur le film…</p>
+    </article>
+---

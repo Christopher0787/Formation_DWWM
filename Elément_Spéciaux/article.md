@@ -81,20 +81,16 @@
 ## **Résumé Technique**
 
 ### **Omission de balises :** 
-
     Aucune, la balise d'ouverture et la balise de fermeture sont obligatoires.
 
 ### **Parents autorisés :** 
-
 	Tout élément acceptant du contenu de flux. Un élément <article> ne doit pas être un descendant 
     d'un élément <address>.
 
 ### **Rôle ARIA implicite :** 
-
 	article
 
 ### **Rôle ARIA autorisés :** 
-
     application, document, feed, main, none, presentation, region.
 
 ---

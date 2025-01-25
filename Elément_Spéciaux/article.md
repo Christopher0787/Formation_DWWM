@@ -66,3 +66,11 @@
     }
 
 ---
+
+
+
+    Un document donné peut contenir plusieurs articles ; par exemple, 
+    sur un blog qui affiche le texte de chaque article l'un après l'autre au fur et à mesure 
+    que le lecteur fait défiler, chaque message sera contenu dans un élément <article>, avec éventuellement une ou plusieurs <section> à l'intérieur.
+
+---

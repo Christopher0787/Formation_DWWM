@@ -19,6 +19,7 @@
 **L'élément <title est toujours utilisé au sein de l'élément <head de la page.**
 
 ## Référencement (SEO)
+
 **Le titre d'une page fait partie des éléments principaux qui sont scannés lors de l'indexation d'une page. C'est aussi le texte qui est affiché parmi les résultats du moteur de recherche, de façon proéminente et donc visible par les utilisateurs qui trouvent votre site grâce à un moteur de recherche.**
 
 **Aussi, mieux vaudra avoir des titres descriptifs plutôt que des titres trop courts ou vagues.**

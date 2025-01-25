@@ -294,7 +294,96 @@
 
                 L'idée est d'éviter de consommer de la bande passante et des ressources réseaux 
                 avant d'être relativement certain que l'image est nécessaire. 
-                
+
                 Pour la plupart des cas d'usage, cela permet d'améliorer les performances.
+
+---
+
+
+    referrerpolicy
+        Une chaîne de caractères qui indique le référent à utiliser lors de la récupération 
+        de la ressource :
+
+    no-referrer
+        L'en-tête Referer n'est pas envoyé.
+
+    no-referrer-when-downgrade
+        L'en-tête Referer ne sera pas envoyé aux origines sans TLS/HTTPS.
+
+    origin:
+        Le référent envoyé sera limité à l'origine de la page référente, c'est-à-dire 
+        qu'il ne contiendra que le schéma, l'hôte et le port.
+
+    origin-when-cross-origin
+        Le référent envoyé aux autres origines sera limité au schéma, à l'hôte et au port. 
+        La navigation vers la même origine contiendra le chemin.
+
+    same-origin
+        Un référent sera envoyé vers les mêmes origines mais les requêtes vers d'autres 
+        origines ne contiendront pas de référent.
+
+    strict-origin
+        N'envoie l'origine du document comme référent que lorsque le niveau de sécurité du protocole reste le même (HTTPS→HTTPS) et pas lorsque la destination est moins sécurisée (HTTPS→HTTP).
+
+    strict-origin-when-cross-origin (la valeur par défaut)
+        Envoie l'URL complète lors d'une requête vers la même origine, n'envoie que l'origine 
+        pour les requêtes vers d'autres origines si le niveau de sécurité du protocole reste 
+        le même (HTTPS→HTTPS), n'envoie aucun en-tête correspondant vers une destination moins sécurisée (HTTPS→HTTP).
+
+    unsafe-url
+        Le référent inclut l'origine et le chemin (mais pas le fragment, le mot de passe ou 
+        le nom d'utilisateur). Cette valeur n'est pas sécurisée, car elle diffuse l'origine 
+        et les chemins de ressources protégées par TLS vers des origines non-sécurisées.
+
+    sizes
+        Une ou plusieurs chaînes de caractères séparées par des virgules et qui indiquent 
+        un ensemble de tailles de source possible. Chaque taille de source consiste en :
+
+        Une condition de média. Celle-ci doit être absente pour le dernier élément de la liste.
+
+        Une valeur de taille de source.
+
+        La condition de média décrit les propriétés de la zone d'affichage et pas de l'image. Ainsi, (max-height: 500px) 1000px proposera d'utiliser une source de largeur 1000px, 
+        si la zone d'affichage n'est pas plus haute que 500px.
+
+        Les valeurs pour les tailles de source indiquent la taille d'affichage souhaitée 
+        de l'image. Le navigateur utilise la taille de source courante correspondante pour sélectionner une des sources fournies par l'attribut srcset lorsque les sources y 
+        sont décrites avec un descripteur de largeur (w). La taille de source sélectionnée 
+        affecte la taille intrinsèque de l'image (c'est-à-dire la taille occupée à l'écran 
+        si aucun style CSS n'est appliqué). Si l'attribut srcset est absent ou qu'il ne contient pas de valeur avec un descripteur de largeur, l'attribut sizes aura aucun effet.
+
+    src
+        L'URL de l'image. Cet attribut est obligatoire. 
+        Pour les navigateurs qui prennent en charge srcset, l'image fourni par src est considérée comme une candidate avec un descripteur de densité de pixel à 1x, sauf si une image avec 
+        un tel descripteur est déjà définie dans srcset, ou si srcset contient des descripteurs w.
+
+    srcset
+        Une ou plusieurs chaînes de caractères séparées par des virgules, qui indiquent des 
+        sources possibles pour l'image que le navigateur pourra utiliser. Chaque chaîne de caractères se compose :
+
+            D'une URL vers l'image
+
+            Éventuellement, d'un espace suivi :
+
+                 D'un descripteur de largeur (un entier positif suivi par w). Le descripteur de largeur est divisé par la taille de source fournie par l'attribut sizes afin de calculer la densité de pixel effective.
+
+                D'un descripteur de densité de pixel (un nombre décimal positif suivi par x).
+
+        Si aucun descripteur n'est indiqué, la source se voit affecter un descripteur par 
+        défaut de 1x.
+
+        Toute combinaison des deux types de descripteur sera invalide. De même, indiquer deux sources avec le même descripteur sera invalide.
+
+        L'agent utilisateur sélectionne une des sources disponibles comme il l'entend. 
+        Cette liberté permet de baser le choix sur d'autres facteurs comme les préférences 
+        de l'utilisateur ou les conditions réseau. 
+        Voir le tutoriel sur les images adaptatives pour un exemple.
+
+    width
+        La largeur intrinsèque de l'image, exprimée en pixels. La valeur doit être un nombre 
+        entier sans unité.
+
+    usemap
+        L'URL partielle (commençant par #) d'une carte d'image associée à l'élément.
 
 ---

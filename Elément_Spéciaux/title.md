@@ -27,7 +27,8 @@
 
     * On pourra éviter les titres sur un ou deux mots.
 
-    * La longueur affichée pour les titres dans les résultats d'un moteur de recherche se situe entre 55 et 60 caractères. Si le titre est plus long, on veillera à ce que les concepts majeurs apparaissent avant cette longueur.
+    * La longueur affichée pour les titres dans les résultats d'un moteur de recherche se situe entre 55 et 60 caractères. 
+    Si le titre est plus long, on veillera à ce que les concepts majeurs apparaissent avant cette longueur.
 
     * Attention aux entités (les chevrons HTML pourront être affichés différemment entre les navigateurs).
 

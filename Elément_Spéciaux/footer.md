@@ -72,3 +72,9 @@
     group, none, presentation
 
 ---
+
+## **Attributs**
+
+**Comme tous les éléments HTML, cet élément accepte les attributs universels.**
+
+---

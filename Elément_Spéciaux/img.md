@@ -422,3 +422,26 @@
 
 
 ## **Mettre en forme avec CSS**
+
+    <img> est un élément remplacé. Sa propriété display par défaut vaut inline, 
+    mais ses dimensions par défaut sont définies par les valeurs intrinsèques de 
+    l'image, à la façon de inline-block. 
+    Il est tout à fait possible d'utiliser les propriétés border/border-radius, 
+    padding/margin, width, et height sur une image.
+
+    <img> n'a pas de ligne de base, donc lorsque les images sont utilisées dans 
+    un contexte de mise en forme en ligne avec vertical-align: baseline, 
+    le bas de l'image sera placé sur la ligne de base du texte.
+
+    La propriété object-position peut être utilisée afin de positionner l'image 
+    au sein de la boîte fournie par l'élément. La propriété object-fit peut être 
+    utilisée pour ajuster le dimensionnement de l'image au sein de la boîte 
+    (par exemple pour étirer ou rogner l'image dans la boîte si nécessaire).
+
+    Selon son type, une image peut avoir une largeur et une hauteur intrinsèque. 
+    Pour certains types d'image en revanche, de telles dimensions intrinsèques ne 
+    sont pas nécessaires. Ainsi, les images vectorielles (en SVG par exemple) n'ont 
+    pas de dimensions intrinsèques si leur racine (l'élément <svg>) n'a pas d'attribut 
+    width ou height défini.
+
+---

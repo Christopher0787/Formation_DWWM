@@ -12,3 +12,39 @@
     ou les liens vers d'autres documents en relation.
 
 ---
+
+
+
+## **Exemple interactif en HTML**
+
+    HTML Demo: <footer>
+
+    <article>
+    <h1>How to be a wizard</h1>
+    <ol>
+        <li>Grow a long, majestic beard.</li>
+        <li>Wear a tall, pointed hat.</li>
+        <li>Have I mentioned the beard?</li>
+    </ol>
+    <footer>
+        <p>© 2018 Gandalf</p>
+    </footer>
+    </article>
+
+## **Exemple interactif en CSS**
+
+    article {
+        min-height: 100%;
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+        background-color: #45a1ff;
+        color: #fff;
+    }
+
+---

@@ -39,3 +39,11 @@
     }
 
 ---
+
+
+
+    Ainsi, un menu de navigation devrait être délimité par un élément <nav> mais une liste 
+    de résultat de recherche, qui ne dispose pas d'élément spécifique pour être représentée, 
+    pourrait être englobée dans un élément <section>.
+
+---

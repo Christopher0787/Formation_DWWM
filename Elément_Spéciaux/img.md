@@ -114,7 +114,9 @@
 
         L'image est corrompue et ne peut être chargée ainsi.
 
-        Les métadonnées associées à l'image sont corrompues de telle façon qu'il est impossible de connaître ses dimensions et qu'aucune dimension n'a été fournie pour les attributs de l'élément <img>.
+        Les métadonnées associées à l'image sont corrompues de telle façon qu'il est impossible 
+        de connaître ses dimensions et qu'aucune dimension n'a été fournie pour les attributs 
+        de l'élément <img>.
 
         Le format de l'image n'est pas pris en charge par l'agent utilisateur (généralement le navigateur).
 

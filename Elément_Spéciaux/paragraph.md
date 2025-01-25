@@ -38,3 +38,12 @@
     (voir Omission de balises dans le tableau qui suit)
 
 ---
+
+
+## **Attributs**
+
+    Cet élément, comme les autres éléments HTML, inclut les attributs universels.
+
+---
+
+

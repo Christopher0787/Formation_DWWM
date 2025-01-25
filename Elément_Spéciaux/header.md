@@ -105,3 +105,11 @@
     Cela a permis à <header> d'être libre de remplir un rôle différent par la suite.
 
 ---
+
+
+
+## **Attributs**
+
+**Cet élément ne possède que les attributs universels.**
+
+---

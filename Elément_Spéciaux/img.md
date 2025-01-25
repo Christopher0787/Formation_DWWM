@@ -533,7 +533,8 @@
 
     Un test important pour l'accessibilité consiste à lire le contenu de l'attribut alt 
     avec le contenu texte précédent afin de voir si cela fournit les mêmes informations que l'image. 
-    Ainsi, si l'image était précédée de la phrase « Lors de mon voyage, j'ai vu un animal mignon : ». Dans l'exemple de la mauvaise pratique, cela aurait donné « Lors de mon voyage, 
+    Ainsi, si l'image était précédée de la phrase « Lors de mon voyage, j'ai vu un animal mignon : ». 
+    Dans l'exemple de la mauvaise pratique, cela aurait donné « Lors de mon voyage, 
     j'ai vu un animal mignon : image », ce qui n'a pas de sens. 
     Avec la bonne pratique et cet exemple, on aurait obtenu « Lors de mon voyage, 
     j'ai vu un animal mignon : Un manchot Rockhopper sur une plage. », ce qui est plus parlant.
@@ -581,6 +582,10 @@
     La valeur de l'attribut title est généralement affichée via une bulle d'information 
     qui apparaît au survol du curseur sur l'image. Bien que cet attribut puisse fournir 
     des informations supplémentaires, on ne doit pas s'attendre à ce que toute personne le voit : 
-    par exemple lorsque la navigation est effectuée au clavier ou sur un écran tactile. Si les informations à afficher sont particulièrement importantes ou utiles, on utilisera les méthodes évoquées ci-avant plutôt que title.
+    par exemple lorsque la navigation est effectuée au clavier ou sur un écran tactile. 
+    Si les informations à afficher sont particulièrement importantes ou utiles, on utilisera les méthodes évoquées ci-avant plutôt que title.
 
 ---
+
+
+## **Compatibilité des navigateurs**

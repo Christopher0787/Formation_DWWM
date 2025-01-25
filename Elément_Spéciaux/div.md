@@ -109,3 +109,18 @@
     }
 
 ---
+
+
+## Résultat
+
+**must be provided**
+
+---
+
+## **Accessibilité**
+
+    L'élément <div> possède un rôle ARIA implicite generic (plutôt qu'aucun rôle). 
+    Cela peut avoir un impact sur certaines combinaisons de déclarations 
+    ARIA qui nécessitent un élément descendant direct avec un rôle donné pour fonctionner correctement.
+
+---

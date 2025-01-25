@@ -11,3 +11,32 @@
 
 
 ## **Exemple interactif**
+
+## **Exemple interactif**
+    HTML Demo: <div>
+### **Exemple interactif en HTML**
+    <div class="warning">
+        <img src="/media/examples/leopard.jpg" alt="An intimidating leopard." />
+        <p>Beware of the leopard</p>
+    </div>
+
+
+### **Exemple interactif en CSS**
+    .warning {
+        border: 10px ridge #f00;
+        background-color: #ff0;
+        padding: 0.5rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .warning img {
+        width: 100%;
+    }
+
+    .warning p {
+        font: small-caps bold 1.2rem sans-serif;
+        text-align: center;
+    }
+
+---

@@ -26,7 +26,7 @@
 ---
 
 ## **Compatibilité des navigateurs**
-**| Navigateur          | Compatibilité Ordinateur | Compatibilité Mobile |**
+| Navigateur          | Compatibilité Ordinateur | Compatibilité Mobile |
 |---------------------|--------------------------|----------------------|
 | Google Chrome       | ✅ (Très fiable)         | ✅ (Très fiable)     |
 | Mozilla Firefox     | ✅ (Très fiable)         | ✅ (Très fiable)     |

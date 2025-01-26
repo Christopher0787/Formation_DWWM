@@ -61,7 +61,8 @@
 ---
     use-credentials
         Une requête multi-origine est envoyée avec une information d'authentification 
-        (c'est-à-dire avec un en-tête HTTP Origin: qui contient un cookie, un certificat ou effectuant une authentification HTTP).
+        (c'est-à-dire avec un en-tête HTTP Origin: 
+        qui contient un cookie, un certificat ou effectuant une authentification HTTP).
 
         Lorsque cet attribut n'est pas présent, la ressource est récupérée sans requête 
         CORS et empêche ainsi d'utiliser la ressource dans un <canvas>. 

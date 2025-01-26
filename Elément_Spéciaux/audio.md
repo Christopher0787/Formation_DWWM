@@ -42,8 +42,8 @@
 *Un attribut booléen : s'il est spécifié, l'audio commencera automatiquement la lecture dès qu'il pourra le faire, sans attendre la fin du téléchargement de l'ensemble du fichier audio.*
 
 
-controls
-Si l'attribut est présent, le navigateur affichera des contrôles pour que l'utilisateur puisse gérer la lecture, le volume, et le déplacement du curseur de lecture.
+    controls
+*Si l'attribut est présent, le navigateur affichera des contrôles pour que l'utilisateur puisse gérer la lecture, le volume, et le déplacement du curseur de lecture.*
 
 crossorigin
 Cet attribut à valeur contrainte indique comment le CORS doit être utilisé afin de récupérer la ressource. Les ressources utilisant le CORS peuvent être réutilisées dans un élément <canvas> sans corrompre celui-ci. Les valeurs autorisées pour cet attribut sont :

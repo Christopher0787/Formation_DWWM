@@ -166,17 +166,64 @@
         La lecture a été interrompue en raison d'un manque temporaire de données.
 ---
 
+## **Notes d'utilisation**
+    Les navigateurs ne prennent pas tous en charge les mêmes types de fichiers et 
+    codecs audio ; vous pouvez fournir plusieurs sources à l'intérieur 
+    d'éléments <source> imbriqués, et le navigateur utilisera alors le premier 
+    qu'il comprend :
+---
 
+## HTML
 
+    <audio controls>
+        <source src="myAudio.mp3" type="audio/mpeg" />
+        <source src="myAudio.ogg" type="audio/ogg" />
+        <p>
+        Votre navigateur ne prend pas en charge l'audio HTML5. Voici un
+            <a href="myAudio.mp3">lien vers le fichier audio</a> à la place.
+        </p>
+    </audio>
+---
 
+## **Mise en forme avec CSS**
 
+    L'élément <audio> n'a aucun affichage intrinsèque en dehors des contrôles par 
+    défaut du navigateur qui sont affichés lorsque l'attribut booléen controls est présent.
 
+    Les contrôles par défaut sont affichés avec display qui vaut inline par défaut et il est possible de changer cette valeur en block dans une feuille de style afin de pouvoir placer le contrôle au sein de la disposition, à moins de vouloir le placer en incise.
 
+    Les contrôles par défaut peuvent être mis en forme grâce à des propriétés qui influent 
+    sur l'ensemble du bloc. On peut ainsi utiliser border, border-radius, padding, margin, etc. Toutefois, il n'est pas possible de mettre en forme chacun des composants individuel du contrôle (on ne peut pas, par exemple, modifier la taille d'un des boutons ou leurs icones). Chaque navigateur peut avoir des contrôles par défaut qui soient différents.
 
+    Pour obtenir un aspect identique dans les différents navigateurs, il vous faudra créer vos propres contrôles afin de les baliser et de les mettre en forme à votre convenance puis d'utiliser JavaScript et l'API HTMLMediaElement pour manipuler les différentes fonctionnalités.
 
+    Le guide sur la mise en forme des lecteurs vidéo fournit quelques techniques utiles, bien qu'écrit à propos de l'élément <video>, certains concepts peuvent tout à fait s'appliquer aux éléments <audio>.
 
+## Détecter l'ajout et la suppression de pistes
 
+    Il est aussi possible de détecter lorsque des pistes sont ajoutées et supprimées 
+    sur un élément <audio> en écoutant les évènements addtrack et removetrack. 
+    Toutefois, ces évènements ne sont pas directement envoyés sur l'élément <audio> 
+    mais sur l'objet représentant la liste de pistes de l'élément <audio> et rattaché 
+    à l'élément HTMLMediaElement.
 
+---
+    HTMLMediaElement.audioTracks
+
+    Un objet AudioTrackList contenant l'ensemble des pistes audio associées à l'élément. 
+    Un écouteur addtrack peut être associé à l'objet afin d'alerter lorsque de nouvelles 
+    pistes audio sont ajoutées à l'élément.
+---
+    HTMLMediaElement.videoTracks
+
+    Un écouteur addtrack peut être ajouté à cet objet VideoTrackList afin d'alerter lorsque 
+    de nouvelles pistes vidéo sont ajoutées à l'élément.
+---
+    HTMLMediaElement.textTracks
+
+    Un écouteur addtrack peut être ajouté à cet objet TextTrackList afin d'alerter lorsque 
+    de nouvelles pistes de texte sont ajoutées à l'élément.
+---
 
 
 

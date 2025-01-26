@@ -312,7 +312,8 @@
 
     Dans l'exemple qui suit, le navigateur essaiera de jouer le premier fichier correspondant au premier élément 
     (celui avec le codec Opus) : s'il peut le lire, il n'interprète pas les suivants ; 
-    s'il ne peut pas le lire, il tente de lire le deuxième puis, si ce n'est toujours pas possible, le troisième (au format MP3) :
+    s'il ne peut pas le lire, il tente de lire le deuxième puis, si ce n'est toujours 
+    pas possible, le troisième (au format MP3) :
 
 ---
     HTML

@@ -106,7 +106,7 @@
 ## **Évènements**
 
     audioprocess
-    
+
         La mémoire tampon en entrée d'un ScriptProcessorNode peut désormais être traité.
 ---
     canplay
@@ -261,22 +261,82 @@
     de nouvelles pistes de texte sont ajoutées à l'élément.
 ---
 
+    Ainsi, on pourra utiliser un fragment de code analogue à celui qui suit pour 
+    détecter si de nouvelles pistes sont ajoutées ou supprimées d'un élément <audio> :
 
+---
+## Javascript
 
+    let elem = document.querySelector("audio");
 
+    elem.audioTrackList.onaddtrack = function (event) {
+        trackEditor.addTrack(event.track);
+    };
 
+    elem.audioTrackList.onremovetrack = function (event) {
+        trackEditor.removeTrack(event.track);
+    };
+---
 
+## **Exemples**
 
+## Utilisation simple
 
+### HTML
 
+    <!-- Simple lecture audio -->
+    <audio src="AudioTest.ogg" autoplay>
+        Votre navigateur ne supporte pas l'élément <code>audio</code>.
+    </audio>
+---
 
+## Utilisation de l'élément 
+    <source>
 
+    Cet exemple précise quelle piste audio intégrer en utilisant l'attribut src sur un 
+    élément <source> imbriqué plutôt que directement sur l'élément <audio>. 
+    Il est toujours utile d'inclure le type MIME du fichier à l'intérieur de l'attribut type, 
+    car le navigateur est capable de dire instantanément s'il peut lire ce fichier, 
+    et de ne pas perdre de temps dessus dans le cas contraire.
 
+    HTML
 
+    <audio controls="controls">
+        <source src="toto.wav" type="audio/wav" />
+        Votre navigateur ne prend pas en charge l'élément <code>audio</code>.
+    </audio>
+---
 
+## Utilisation de plusieurs éléments 
+    <source>
 
+    Dans l'exemple qui suit, le navigateur essaiera de jouer le premier fichier correspondant au premier élément (celui avec le codec Opus) : s'il peut le lire, il n'interprète pas les suivants ; s'il ne peut pas le lire, il tente de lire le deuxième puis, si ce n'est toujours pas possible, le troisième (au format MP3) :
 
+    HTML
 
+    <audio controls="">
+        <source src="toto.opus" type="audio/ogg; codecs=opus" />
+        <source src="toto.ogg" type="audio/ogg; codecs=vorbis" />
+        <source src="toto.mp3" type="audio/mpeg" />
+    </audio>
+---
+
+    Une autre bonne pratique consiste à fournir du contenu comme un lien de téléchargement 
+    comme méthode alternative pour les personnes qui utilisent un navigateur qui ne prend 
+    pas en charge <audio> :
+
+    HTML
+
+    <audio controls>
+        <source src="monAudio.mp3" type="audio/mpeg" />
+        <source src="monAudio.ogg" type="audio/ogg" />
+        <p>
+            Votre navigateur ne prend pas charge l'audio HTML. Voici
+            <a href="monAudio.mp3">un lien de téléchargement</a> à la place.
+        </p>
+    </audio>
+
+## **Compatibilité des navigateurs**
 
 
 

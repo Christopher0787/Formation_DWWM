@@ -197,11 +197,14 @@
 
     Les contrôles par défaut peuvent être mis en forme grâce à des propriétés qui influent 
     sur l'ensemble du bloc. 
-    On peut ainsi utiliser border, border-radius, padding, margin, etc. Toutefois, il n'est pas possible de mettre en forme chacun des composants individuel du contrôle 
+    On peut ainsi utiliser border, border-radius, padding, margin, etc. Toutefois, 
+    il n'est pas possible de mettre en forme chacun des composants individuel du contrôle 
     (on ne peut pas, par exemple, modifier la taille d'un des boutons ou leurs icones). 
     Chaque navigateur peut avoir des contrôles par défaut qui soient différents.
 
-    Pour obtenir un aspect identique dans les différents navigateurs, il vous faudra créer vos propres contrôles afin de les baliser et de les mettre en forme à votre convenance puis d'utiliser JavaScript et l'API HTMLMediaElement pour manipuler les différentes fonctionnalités.
+    Pour obtenir un aspect identique dans les différents navigateurs, il vous faudra créer
+    vos propres contrôles afin de les baliser et de les mettre en forme à votre convenance 
+    puis d'utiliser JavaScript et l'API HTMLMediaElement pour manipuler les différentes fonctionnalités.
 
     Le guide sur la mise en forme des lecteurs vidéo fournit quelques techniques utiles, 
     bien qu'écrit à propos de l'élément <video>, certains concepts peuvent tout à fait 

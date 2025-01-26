@@ -56,7 +56,8 @@
         Une requête multi-origine est envoyée sans information d'authentification. 
         Autrement dit, l'en-tête HTTP Origin est envoyé sans cookie, certificat X.509 ou sans authentification HTTP. 
         Si le serveur ne fournit pas d'information d'authentification au site d'origine 
-        (sans indiquer l'en-tête Access-Control-Allow-Origin), la ressource sera corrompue (tainted) et son utilisation sera restreinte.
+        (sans indiquer l'en-tête Access-Control-Allow-Origin), 
+        la ressource sera corrompue (tainted) et son utilisation sera restreinte.
 ---
     use-credentials
         Une requête multi-origine est envoyée avec une information d'authentification 

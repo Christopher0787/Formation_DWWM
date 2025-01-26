@@ -9,3 +9,19 @@
     Il peut également être la destination de médias diffusés en continu, en utilisant un MediaStream.
 ---
 ## **Exemple interactif**
+    HTML Demo: <audio>
+
+## **Exemple interactif en HTML**
+---
+    <figure>
+        <figcaption>Listen to the T-Rex:</figcaption>
+        <audio controls src="/media/cc0-audio/t-rex-roar.mp3"></audio>
+        <a href="/media/cc0-audio/t-rex-roar.mp3"> Download audio </a>
+    </figure>
+---
+## **Exemple interactif en CSS**
+---
+    figure {
+        margin: 0;
+    }
+---

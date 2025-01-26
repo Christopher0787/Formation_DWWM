@@ -12,7 +12,6 @@
     HTML Demo: <audio>
 
 ## **Exemple interactif en HTML**
----
     <figure>
         <figcaption>Listen to the T-Rex:</figcaption>
         <audio controls src="/media/cc0-audio/t-rex-roar.mp3"></audio>
@@ -20,7 +19,6 @@
     </figure>
 ---
 ## **Exemple interactif en CSS**
----
     figure {
         margin: 0;
     }

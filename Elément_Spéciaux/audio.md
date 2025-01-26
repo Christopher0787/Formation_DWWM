@@ -48,12 +48,15 @@
         le volume, et le déplacement du curseur de lecture.
 
         Cet attribut à valeur contrainte indique comment le CORS doit être utilisé afin de récupérer la ressource. 
-        Les ressources utilisant le CORS peuvent être réutilisées dans un élément <canvas> sans corrompre celui-ci. Les valeurs autorisées pour cet attribut sont :
+        Les ressources utilisant le CORS peuvent être réutilisées dans un élément <canvas> sans corrompre celui-ci. 
+        Les valeurs autorisées pour cet attribut sont :
 ---
 
     anonymous
         Une requête multi-origine est envoyée sans information d'authentification. 
-        Autrement dit, l'en-tête HTTP Origin est envoyé sans cookie, certificat X.509 ou sans authentification HTTP. Si le serveur ne fournit pas d'information d'authentification au site d'origine (sans indiquer l'en-tête Access-Control-Allow-Origin), la ressource sera corrompue (tainted) et son utilisation sera restreinte.
+        Autrement dit, l'en-tête HTTP Origin est envoyé sans cookie, certificat X.509 ou sans authentification HTTP. 
+        Si le serveur ne fournit pas d'information d'authentification au site d'origine 
+        (sans indiquer l'en-tête Access-Control-Allow-Origin), la ressource sera corrompue (tainted) et son utilisation sera restreinte.
 ---
     use-credentials
         Une requête multi-origine est envoyée avec une information d'authentification 
@@ -65,7 +68,8 @@
         Voir Paramétrage des attributs relatifs au CORS pour plus d'informations.
 ---
     disableRemotePlayback Expérimental
-        Un attribut booléen utilisé pour désactiver la capacité de lecture à distance dans les appareils qui sont connectés à l'aide de câbles (HDMI, DVI, etc.) et sans fil 
+        Un attribut booléen utilisé pour désactiver la capacité de lecture à distance dans les appareils qui sont connectés 
+        à l'aide de câbles (HDMI, DVI, etc.) et sans fil 
         (Miracast, Chromecast, DLNA, AirPlay, etc.). 
         Voir cette proposition de spécification pour plus d'informations.
 ---

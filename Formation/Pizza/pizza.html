@@ -1,11 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr'">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>PIZZA</title>
 </head>
 <body>
-    
+    <form action="action.php" method="POST" name="Formulaire">
+        <fieldset>
+            <legend>Votre PIZZA</legend>
+
+            <input type="checkbox" name="PIZZA1" id="PIZZA1" required>
+            <label for="PIZZA1">CHORIZO</label>
+
+            <input type="checkbox" name="PIZZA1" id="PIZZA2" checked>
+            <label for="PIZZA2">MERGUEZ</label>
+
+            <input type="checkbox" name="PIZZA3" id="PIZZA3">
+            <label for="PIZZA3">MEXICAINE</label>
+        </fieldset>
+        <fieldset>
+            <legend>Votre moyen de paiment</legend>
+            <input type="radio" name="mode" id="cheque" value="cheque">
+            <label for="cheque">Chèque</label>
+
+            <input type="radio" name="mode" id="carteBleu" value="carteBleu">
+            <label for="carteBleu">Carte Bleu</label>
+
+            <input type="radio" name="mode" id="espece" value="espece">
+            <label for="espece">Espèce</label>
+        </fieldset>
+
+        <input type="reset" value="Réinitialiser">
+        <input type="submit" value="Commander">
+
+        <p>
+            Nombre d'article(s) souhaité(s) :
+            <input type="range" name="curseur" id="curseur">
+        </p>
+    </form>
 </body>
 </html>

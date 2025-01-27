@@ -20,39 +20,153 @@
             </p>
         </section>
         <!-- Section droite : 2 "blocs" gauche/droite -->
-         <section>
+        <section>
             <div>
-                <img src="" alt="">
+                <img src="#" alt="Logo utilisateur, Déscription complète impossible">
             </div>
-         </section>
+            <div>
+                <p>Toto CCI, connecté</p>
+                <p>
+                    <a href="#">Mon Profil</a>
+                    <a href="#">Déconnecter</a>
+                </p>
+            </div>
+        </section>
+        </header>
+        <main>
+            <fieldset>
+                <p>Mon compte</p>
+                <form action="#" method="POST" name="monCompte"></form>
+            </fieldset>
+                <legend>Vos Information personnelles</legend>
+                <!-- Contenu principale -->
+                <fieldset>
+                    <section>
+                        <label for="Name">Nom :</label>
+                        <input type="text" name="name" id="name" placeholder="Votre Nom">
+                        <br><br>
 
+                        <label for="FirstName">Prenom :</label>
+                        <input type="text" name="firstName" id="firstName" placeholder="Votre Prenom">
+                        <br><br>
 
+                        <label for="Email">Email :</label>
+                        <input type="email" name="email" id="email" placeholder="Votre Email">
+                        <br><br>
 
+                        <label for="Password">Password :</label>
+                        <input type="password" name="password" id="password" placeholder="Votre Mot de passe">
+                        <br><br>
+                    </section>
+                    <section>
+                        <label for="birthdayDate">Date de Naissance</label>
+                        <input type="date" name="birthdayDate" id="birthdayDate">
+                        <br><br>
 
+                        <label for="favoriteGroupe">Groupe Préférer</label>
+                        <select name="favoriteGroupe" id="favoriteGroupe">
+                            <option value="Slipknot">SLIPKNOT</option>
+                            <option value="SystemOfaDown">System Of a Down</option>
+                            <option value="Slayer">SLAYER</option>
+                            <option value="LinkinPark">LINKIN PARK</option>
+                        </select>
+                        <br><br>
 
+                        <label for="Phone">Téléphone</label>
+                        <input type="tel" name="phone" id="phone" placeholder="Votre Téléphone ?">
+                        <br><br>
+                        
+                        <label for="repeatPassword">Répéter le mot de passe</label>
+                        <input type="password" name="repeatPassword" id="repeatPassword" placeholder="Votre mot de passe ?">
+                        <br><br>
+                    </section>
+                </fieldset>
+                <fieldset>
+                    <legend>Votre formule d'abonnement</legend>
+                    <table>
+                        <thead>
+                            <th>
+                                <input type="radio" name="subscription" id="premiumPlus" value="premiumPlus">
+                                <label for="premiumPlus">Premium +</label>
+                            </th>
 
+                            <th>
+                                <input type="radio" name="subscription" id="premium" value="premium">
+                                <label for="premium">Premium</label>
+                            </th>
 
+                            <th>
+                                <input type="radio" name="subscription" id="discovery" value="discovery">
+                                <label for="discovery">Discovery +</label>
+                            </th>
+                        </thead>
+                            <th>
+                                <th>Accés Web</th>
+                                <td>
+                                    <img src="#" alt="iconOk">
+                                </td>
+                                <td>
+                                    <img src="#" alt="iconOk">
+                                </td>
+                                <td>
+                                    <img src="#" alt="iconOk">
+                                </td>
+                            </th>
 
+                            <th>
+                                <th>Accés Mobile</th>
+                                <td>
+                                    <img src="#" alt="iconOk">
+                                </td>
+                                <td>
+                                    <img src="#" alt="iconOk">
+                                </td>
+                                <td>
+                                    <img src="#" alt="iconOk">
+                                </td>
+                            </th>
 
+                            <th>
+                                <th>Ecoute Illimitée</th>
+                                <td>
+                                    <img src="#" alt="iconOk">
+                                </td>
+                                <td>
+                                    <img src="#" alt="iconOk">
+                                </td>
+                                <td>
+                                    <img src="#" alt="iconOk">
+                                </td>
+                            </th>
 
+                            <th>
+                                <th>Tarif</th>
+                                <td>
+                                    11.99€/mois
+                                </td>
+                                <td>
+                                    5.99€/mois
+                                </td>
+                                <td>
+                                    1 Mois gratuit
+                                </td>
+                            </th>
+                    </table>
+                    <section>
+                        <div>
+                            <input type="checkbox" name="newsletter" id="newsletter">
+                            <label for="newsletter">Recevoire les newsletter</label>
+                        </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </header>
-    
+                        <div>
+                            <input type="checkbox" name="partnerNewsletter" id="partnerNewsletter">
+                            <label for="partnerNewsletter">Recevoire les newsletter de nos partenaire</label>
+                        </div>
+                    </section>
+                        <input type="reset" value="ANNULER">
+                        <input type="submit" value="VALIDER">
+                </fieldset>
+        </main>
 </body>
 </html>
+            

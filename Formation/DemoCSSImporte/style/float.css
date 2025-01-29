@@ -1,0 +1,14 @@
+article{
+    width: 400px;
+
+    img{
+        width: 125px;
+        height: 125px;
+    }
+}
+.gauche{
+    float: left;
+}
+.droite{
+    float: right;
+}

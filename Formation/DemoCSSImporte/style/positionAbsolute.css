@@ -1,0 +1,11 @@
+.sujet{
+    background-color: chartreuse;
+    width: 60%;
+    position: relative;
+}
+.publication{
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 0.95em;
+}

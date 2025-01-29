@@ -1,0 +1,15 @@
+table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 25px;
+    border: 1px solid black;
+    /* border-collapse: collapse;*/
+    border-collapse: separate;
+    border-spacing: 1px 8px;
+}
+td{
+    border: 1px solid grey;
+    width: 33%;
+    height: 50px;
+    padding: 8px;
+}

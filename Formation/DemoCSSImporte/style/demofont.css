@@ -1,0 +1,6 @@
+p{
+    font-family: "Eater", serif;
+}
+p:nth-child(3n + 0){
+    color: cyan;
+}

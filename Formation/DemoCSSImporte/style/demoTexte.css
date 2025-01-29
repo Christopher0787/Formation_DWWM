@@ -1,0 +1,43 @@
+div{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    margin-right: 8PX;
+}
+.couleur{
+    color: aqua;
+}
+.decoration{
+    text-decoration: line-through;
+}
+.transform{
+    text-transform: uppercase;
+}
+.indentation{
+    text-indent: 36px;
+}
+.esp-lettre{
+    letter-spacing: 4px;
+}
+.esp-mot{
+    word-spacing: 4px;
+}
+.interligne{
+    line-height: 20px;
+}
+.alignement-h{
+    text-align: center;
+}
+.alignement-v{
+    vertical-align: top;
+}
+.l-h{
+    width: 300px;
+    height: 40px;
+    /***************************************************/
+    /* border: 1px solid black;
+    Certaines règle CSS peuvent être combinée ensemble.*/
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}

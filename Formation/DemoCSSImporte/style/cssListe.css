@@ -1,0 +1,32 @@
+.petronas{
+    margin-left: 100%;
+    list-style-image: url(../img/Petronas_Logo.jpg);
+}
+.amg{
+    margin-left: 100%;
+    list-style-image: url(../img/AMG_GT-R.jpg);
+}
+.nombre1{
+    list-style-type: decimal;
+}
+.nombre2{
+    list-style-type: decimal-leading-zero;
+}
+.romain1{
+    list-style-type: upper-roman;
+}
+.romain2{
+    list-style-type: lower-roman;
+}
+.lettre1{
+    list-style-type: upper-alpha;
+}
+.lettre2{
+    list-style-type: lower-alpha;
+}
+.in{
+    list-style-position: inside;
+}
+.out{
+    list-style-position: outside;
+}

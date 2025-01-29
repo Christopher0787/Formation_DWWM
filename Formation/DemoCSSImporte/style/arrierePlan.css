@@ -1,0 +1,28 @@
+div{
+    width: 100%;
+    height: 1000px;
+}
+#plan1{
+    background-color: turquoise;
+}
+h1{
+    color: grey;
+}
+#plan2{
+    background-color: turquoise;
+    background-image: url(../img/Petronas_color_0.jpg);
+    background-repeat: no-repeat;
+}
+h2{
+    color: grey;
+}
+#plan3{
+    background-color: turquoise;
+    background-image: url(../img/AMG_Petronas.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-attachment: fixed;
+}
+h3{
+    color: grey;
+}

@@ -1,0 +1,12 @@
+.lineaire{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background: linear-gradient(to top right, #ff0000, #f8d613);
+}
+.circulaire{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background: radial-gradient(circle at top, #ff0000, #f8d613);
+}

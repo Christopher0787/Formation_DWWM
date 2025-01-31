@@ -10,3 +10,14 @@
     border: 1px solid black;
     background: radial-gradient(circle at top, #ff0000, #f8d613);
 }
+body{
+    height: 100%;
+    background-color: #ff0000;
+    background: url(../img/Eclipse.webp) fixed no-repeat top right;
+}
+#titreh2{
+    background-color: black;
+    opacity: 0.6;
+    color: #f8d613;
+    text-shadow: 4px 4px 4px #000;
+}

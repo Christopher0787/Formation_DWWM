@@ -62,3 +62,53 @@ footer{
     border: var(--bordure);
     background-color: gray;
 }
+
+/************************************************************************************************** 
+                                        Mobile : à partir de 426px
+    Avec la technique des media queries, je vais maitenent faire le CSS spéciale au format Mobile
+***************************************************************************************************/
+@media screen and (min-width: 320px) {
+    header{
+        background-color: pink;
+    }
+    img{
+        display: none;
+    }
+    p{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }   
+}
+
+/************************************************************************************************** 
+                                        Tablette : à partir de 426px
+    Avec la technique des media queries, je vais maitenent faire le CSS spéciale au format tablette
+***************************************************************************************************/
+@media screen and (min-width: 426px) {
+    header{
+        background-color: blueviolet;
+    }
+    img{
+        display: flex;
+    }
+    p{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }   
+}
+
+/************************************************************************************************** 
+                                        Desktop : à partir de 426px
+    Avec la technique des media queries, je vais maitenent faire le CSS spéciale au format desktop
+***************************************************************************************************/
+@media screen and (min-width: 769px) {
+    header{
+        background-color: red;
+    }
+    img{
+        display: block;
+    }
+    article{
+        div{
+            flex-direction: column;
+        }
+    }
+}

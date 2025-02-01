@@ -1,0 +1,15 @@
+#scene{
+    perspective: 500px;
+}
+#objet3d{
+    border: 1px solid black;
+    transform-style: preserve-3d;
+    transform: rotateX(-40deg);
+}
+#scene2{
+    perspective: 500px;
+    perspective-origin: top right;
+}
+#objet3d2{
+    transform: rotateX(-30deg);
+}

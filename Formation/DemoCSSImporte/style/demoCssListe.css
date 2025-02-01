@@ -1,0 +1,32 @@
+.tete{
+    margin-left: 100%;
+    list-style-image: url(../img/#);
+}
+.peloton{
+    margin-left: 100%;
+    list-style-image: url(../img/#);
+}
+.nombre1{
+    list-style-type: decimal;
+}
+.nombre2{
+    list-style-type: decimal-leading-zero;
+}
+.romain1{
+    list-style-type: upper-roman;
+}
+.romain2{
+    list-style-type: lower-roman;
+}
+.lettre1{
+    list-style-type: upper-alpha;
+}
+.lettre1{
+    list-style-type: lower-alpha;
+}
+.in{
+    list-style-position: inside;
+}
+.out{
+    list-style-position: outside;
+}

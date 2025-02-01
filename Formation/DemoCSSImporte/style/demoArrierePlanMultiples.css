@@ -1,0 +1,11 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    background-color: gray;
+    background: url(../img/AMG_Petronas.png) fixed no-repeat top right;
+}
+h1{
+    color: aqua;
+}

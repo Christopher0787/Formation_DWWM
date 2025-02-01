@@ -1,0 +1,10 @@
+.stroke1{
+    font-size: 72px;
+    -webkit-text-stroke: 2px orangered;
+    -webkit-text-fill-color: navy;
+}
+.stroke2{
+    font-size: 72px;
+    color: orangered;
+    text-shadow: -1px -1px 0px navy, 1px -1px 0px navy, -1px 1px 0px navy, 1px 1px 0px navy;
+}

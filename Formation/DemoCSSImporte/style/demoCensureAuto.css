@@ -1,0 +1,13 @@
+/* 
+    hyphens :
+    vérifier la compatibilité
+    Pas reconnu par Chrome, Opera...(chronium) 
+*/
+div{
+    width: 300px;
+    text-align: justify;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    /* hyphens: auto; */
+}

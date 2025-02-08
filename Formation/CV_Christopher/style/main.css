@@ -1,0 +1,121 @@
+/*Mise en page*/
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+title {
+    display: none;
+}
+
+body {
+    display: block;
+    flex-direction: column;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+/*Création du syle*/
+h2 {
+    margin: 15px;
+    background-color: rgb(238, 143, 66);
+}
+
+h3 {
+    margin: 15px;
+    background-color: rgb(238, 143, 66);
+}
+
+b {
+    margin: 6px;
+}
+
+header {
+    outline: 2px solid black;
+    border-radius: 15px 15px 0 0;
+    padding: 10px;
+    margin: 10px;
+}
+
+footer {
+    background-color: black;
+}
+
+footer {
+    color: white;
+}
+
+img {
+    width: 20px;
+}
+
+.desktop-img {
+    display: none;
+}
+
+#mise-en-page div {
+    display: flex;
+    flex-direction: row;
+}
+
+#mise-en-page img {
+    margin-right: 5px;
+}
+
+#structure-page {
+    margin: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/***************************************************************************************************************************/
+/*Ecriture CSS version tablette*/
+@media screen and (min-width : 426px) {
+    body {
+        margin: 12px;
+    }
+
+    #structure-page {
+        display: flex;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    h1 {
+        text-shadow: 5px 5px 5px rgb(238, 143, 66);
+    }
+}
+
+/***************************************************************************************************************************/
+
+/*Ecriture CSS pour format PC*/
+
+@media screen and (min-width : 1024px) {
+
+    #presentation {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .desktop-img {
+        display: block;
+        width: 15%;
+    }
+
+    #structure-page {
+        width: 100%;
+    }
+}
